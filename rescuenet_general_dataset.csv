@@ -1,0 +1,1451 @@
+emergency_id,report_text,emergency_type,severity,priority,ambulance,fire_brigade,police,rescue_team
+E0001,"Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0002,"Major fire in a building, heavy smoke spreading, people trapped inside People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0003,"Please send help immediately. Major fire in a building, heavy smoke spreading, people trapped inside",Fire,Critical,1,1,1,1,1
+E0004,"Major fire in a building, heavy smoke spreading, people trapped inside People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0005,"Need immediate assistance. Major fire in a building, heavy smoke spreading, people trapped inside Immediate response required.",Fire,Critical,1,1,1,1,1
+E0006,"Please send help immediately. Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0007,"Major fire in a building, heavy smoke spreading, people trapped inside Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0008,"Urgent help needed. Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0009,"Need immediate assistance. Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0010,"Urgent help needed. Major fire in a building, heavy smoke spreading, people trapped inside Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0011,"Major fire in a building, heavy smoke spreading, people trapped inside People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0012,"Major fire in a building, heavy smoke spreading, people trapped inside Immediate response required.",Fire,Critical,1,1,1,1,1
+E0013,"Emergency situation. Major fire in a building, heavy smoke spreading, people trapped inside",Fire,Critical,1,1,1,1,1
+E0014,"Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0015,"Emergency situation. Major fire in a building, heavy smoke spreading, people trapped inside",Fire,Critical,1,1,1,1,1
+E0016,"Major fire in a building, heavy smoke spreading, people trapped inside",Fire,Critical,1,1,1,1,1
+E0017,"Urgent help needed. Major fire in a building, heavy smoke spreading, people trapped inside Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0018,"Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0019,"Emergency situation. Major fire in a building, heavy smoke spreading, people trapped inside Immediate response required.",Fire,Critical,1,1,1,1,1
+E0020,"Emergency situation. Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0021,"Emergency situation. Major fire in a building, heavy smoke spreading, people trapped inside",Fire,Critical,1,1,1,1,1
+E0022,"Please send help immediately. Major fire in a building, heavy smoke spreading, people trapped inside Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0023,"Need immediate assistance. Major fire in a building, heavy smoke spreading, people trapped inside People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0024,"Urgent help needed. Major fire in a building, heavy smoke spreading, people trapped inside Immediate response required.",Fire,Critical,1,1,1,1,1
+E0025,"Need immediate assistance. Major fire in a building, heavy smoke spreading, people trapped inside Immediate response required.",Fire,Critical,1,1,1,1,1
+E0026,Please send help immediately. Fire has started in a building and smoke is spreading,Fire,Critical,1,1,1,1,1
+E0027,Emergency situation. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0028,Emergency situation. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0029,Need immediate assistance. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0030,Need immediate assistance. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0031,Please send help immediately. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0032,Fire has started in a building and smoke is spreading Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0033,Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0034,Please send help immediately. Fire has started in a building and smoke is spreading Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0035,Please send help immediately. Fire has started in a building and smoke is spreading Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0036,Need immediate assistance. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0037,Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0038,Emergency situation. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0039,Please send help immediately. Fire has started in a building and smoke is spreading,Fire,Critical,1,1,1,1,1
+E0040,Urgent help needed. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0041,Fire has started in a building and smoke is spreading Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0042,Fire has started in a building and smoke is spreading Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0043,Urgent help needed. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0044,Need immediate assistance. Fire has started in a building and smoke is spreading Immediate response required.,Fire,Critical,1,1,1,1,1
+E0045,Fire has started in a building and smoke is spreading Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0046,Emergency situation. Fire has started in a building and smoke is spreading Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0047,Need immediate assistance. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0048,Urgent help needed. Fire has started in a building and smoke is spreading Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0049,Need immediate assistance. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0050,Emergency situation. Fire has started in a building and smoke is spreading People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0051,"Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0052,"Urgent help needed. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0053,"Urgent help needed. Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0054,"Please send help immediately. Fire in a residential building, one person is trapped Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0055,"Please send help immediately. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0056,"Emergency situation. Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0057,"Fire in a residential building, one person is trapped Immediate response required.",Fire,Critical,1,1,1,1,1
+E0058,"Fire in a residential building, one person is trapped Immediate response required.",Fire,Critical,1,1,1,1,1
+E0059,"Please send help immediately. Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0060,"Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0061,"Fire in a residential building, one person is trapped Immediate response required.",Fire,Critical,1,1,1,1,1
+E0062,"Emergency situation. Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0063,"Need immediate assistance. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0064,"Fire in a residential building, one person is trapped Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0065,"Please send help immediately. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0066,"Fire in a residential building, one person is trapped Immediate response required.",Fire,Critical,1,1,1,1,1
+E0067,"Please send help immediately. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0068,"Please send help immediately. Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0069,"Urgent help needed. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0070,"Fire in a residential building, one person is trapped Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0071,"Please send help immediately. Fire in a residential building, one person is trapped Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0072,"Fire in a residential building, one person is trapped",Fire,Critical,1,1,1,1,1
+E0073,"Need immediate assistance. Fire in a residential building, one person is trapped People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0074,"Need immediate assistance. Fire in a residential building, one person is trapped Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0075,"Urgent help needed. Fire in a residential building, one person is trapped Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0076,Emergency situation. Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0077,Urgent help needed. Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0078,Please send help immediately. Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0079,Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0080,Need immediate assistance. Warehouse fire with chemical smoke People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0081,Emergency situation. Warehouse fire with chemical smoke,Fire,Critical,1,1,1,1,1
+E0082,Urgent help needed. Warehouse fire with chemical smoke People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0083,Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0084,Emergency situation. Warehouse fire with chemical smoke People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0085,Please send help immediately. Warehouse fire with chemical smoke People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0086,Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0087,Need immediate assistance. Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0088,Need immediate assistance. Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0089,Need immediate assistance. Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0090,Please send help immediately. Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0091,Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0092,Please send help immediately. Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0093,Need immediate assistance. Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0094,Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0095,Need immediate assistance. Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0096,Urgent help needed. Warehouse fire with chemical smoke Situation is getting worse.,Fire,Critical,1,1,1,1,1
+E0097,Please send help immediately. Warehouse fire with chemical smoke People need urgent assistance.,Fire,Critical,1,1,1,1,1
+E0098,Warehouse fire with chemical smoke Immediate response required.,Fire,Critical,1,1,1,1,1
+E0099,Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0100,Need immediate assistance. Warehouse fire with chemical smoke Please send help immediately.,Fire,Critical,1,1,1,1,1
+E0101,"Fire in a shop, people need immediate help Please send help immediately.",Fire,High,2,1,1,1,0
+E0102,"Please send help immediately. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0103,"Urgent help needed. Fire in a shop, people need immediate help",Fire,High,2,1,1,1,0
+E0104,"Need immediate assistance. Fire in a shop, people need immediate help Situation is getting worse.",Fire,High,2,1,1,1,0
+E0105,"Fire in a shop, people need immediate help Situation is getting worse.",Fire,High,2,1,1,1,0
+E0106,"Need immediate assistance. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0107,"Urgent help needed. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0108,"Urgent help needed. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0109,"Emergency situation. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0110,"Fire in a shop, people need immediate help Situation is getting worse.",Fire,High,2,1,1,1,0
+E0111,"Need immediate assistance. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0112,"Please send help immediately. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0113,"Urgent help needed. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0114,"Urgent help needed. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0115,"Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0116,"Need immediate assistance. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0117,"Please send help immediately. Fire in a shop, people need immediate help Immediate response required.",Fire,High,2,1,1,1,0
+E0118,"Fire in a shop, people need immediate help",Fire,High,2,1,1,1,0
+E0119,"Please send help immediately. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0120,"Please send help immediately. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0121,"Please send help immediately. Fire in a shop, people need immediate help Situation is getting worse.",Fire,High,2,1,1,1,0
+E0122,"Urgent help needed. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0123,"Please send help immediately. Fire in a shop, people need immediate help Please send help immediately.",Fire,High,2,1,1,1,0
+E0124,"Urgent help needed. Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0125,"Fire in a shop, people need immediate help People need urgent assistance.",Fire,High,2,1,1,1,0
+E0126,"Emergency situation. Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0127,"Please send help immediately. Kitchen fire, flames are increasing Please send help immediately.",Fire,High,2,1,1,0,0
+E0128,"Need immediate assistance. Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0129,"Please send help immediately. Kitchen fire, flames are increasing",Fire,High,2,1,1,0,0
+E0130,"Please send help immediately. Kitchen fire, flames are increasing",Fire,High,2,1,1,0,0
+E0131,"Please send help immediately. Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0132,"Need immediate assistance. Kitchen fire, flames are increasing Situation is getting worse.",Fire,High,2,1,1,0,0
+E0133,"Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0134,"Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0135,"Emergency situation. Kitchen fire, flames are increasing Situation is getting worse.",Fire,High,2,1,1,0,0
+E0136,"Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0137,"Need immediate assistance. Kitchen fire, flames are increasing Situation is getting worse.",Fire,High,2,1,1,0,0
+E0138,"Urgent help needed. Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0139,"Please send help immediately. Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0140,"Need immediate assistance. Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0141,"Please send help immediately. Kitchen fire, flames are increasing Please send help immediately.",Fire,High,2,1,1,0,0
+E0142,"Emergency situation. Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0143,"Need immediate assistance. Kitchen fire, flames are increasing Situation is getting worse.",Fire,High,2,1,1,0,0
+E0144,"Please send help immediately. Kitchen fire, flames are increasing",Fire,High,2,1,1,0,0
+E0145,"Urgent help needed. Kitchen fire, flames are increasing",Fire,High,2,1,1,0,0
+E0146,"Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0147,"Emergency situation. Kitchen fire, flames are increasing Please send help immediately.",Fire,High,2,1,1,0,0
+E0148,"Emergency situation. Kitchen fire, flames are increasing Immediate response required.",Fire,High,2,1,1,0,0
+E0149,"Kitchen fire, flames are increasing People need urgent assistance.",Fire,High,2,1,1,0,0
+E0150,"Need immediate assistance. Kitchen fire, flames are increasing Please send help immediately.",Fire,High,2,1,1,0,0
+E0151,"Please send help immediately. Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0152,"Urgent help needed. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0153,"Fire in a factory, smoke visible from nearby area People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0154,"Need immediate assistance. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0155,"Please send help immediately. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0156,"Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0157,"Emergency situation. Fire in a factory, smoke visible from nearby area Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0158,"Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0159,"Please send help immediately. Fire in a factory, smoke visible from nearby area Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0160,"Emergency situation. Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0161,"Emergency situation. Fire in a factory, smoke visible from nearby area",Fire,Critical,1,1,1,1,1
+E0162,"Need immediate assistance. Fire in a factory, smoke visible from nearby area",Fire,Critical,1,1,1,1,1
+E0163,"Emergency situation. Fire in a factory, smoke visible from nearby area Please send help immediately.",Fire,Critical,1,1,1,1,1
+E0164,"Urgent help needed. Fire in a factory, smoke visible from nearby area",Fire,Critical,1,1,1,1,1
+E0165,"Please send help immediately. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0166,"Urgent help needed. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0167,"Urgent help needed. Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0168,"Emergency situation. Fire in a factory, smoke visible from nearby area People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0169,"Urgent help needed. Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0170,"Need immediate assistance. Fire in a factory, smoke visible from nearby area",Fire,Critical,1,1,1,1,1
+E0171,"Fire in a factory, smoke visible from nearby area People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0172,"Need immediate assistance. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0173,"Need immediate assistance. Fire in a factory, smoke visible from nearby area Situation is getting worse.",Fire,Critical,1,1,1,1,1
+E0174,"Urgent help needed. Fire in a factory, smoke visible from nearby area Immediate response required.",Fire,Critical,1,1,1,1,1
+E0175,"Fire in a factory, smoke visible from nearby area People need urgent assistance.",Fire,Critical,1,1,1,1,1
+E0176,Emergency situation. Electrical fire in a building People need urgent assistance.,Fire,High,2,1,1,1,0
+E0177,Electrical fire in a building,Fire,High,2,1,1,1,0
+E0178,Need immediate assistance. Electrical fire in a building People need urgent assistance.,Fire,High,2,1,1,1,0
+E0179,Emergency situation. Electrical fire in a building Immediate response required.,Fire,High,2,1,1,1,0
+E0180,Please send help immediately. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0181,Emergency situation. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0182,Urgent help needed. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0183,Urgent help needed. Electrical fire in a building,Fire,High,2,1,1,1,0
+E0184,Urgent help needed. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0185,Electrical fire in a building People need urgent assistance.,Fire,High,2,1,1,1,0
+E0186,Electrical fire in a building,Fire,High,2,1,1,1,0
+E0187,Emergency situation. Electrical fire in a building Situation is getting worse.,Fire,High,2,1,1,1,0
+E0188,Need immediate assistance. Electrical fire in a building,Fire,High,2,1,1,1,0
+E0189,Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0190,Emergency situation. Electrical fire in a building Situation is getting worse.,Fire,High,2,1,1,1,0
+E0191,Urgent help needed. Electrical fire in a building Situation is getting worse.,Fire,High,2,1,1,1,0
+E0192,Electrical fire in a building Situation is getting worse.,Fire,High,2,1,1,1,0
+E0193,Please send help immediately. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0194,Need immediate assistance. Electrical fire in a building,Fire,High,2,1,1,1,0
+E0195,Please send help immediately. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0196,Emergency situation. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0197,Emergency situation. Electrical fire in a building Please send help immediately.,Fire,High,2,1,1,1,0
+E0198,Need immediate assistance. Electrical fire in a building People need urgent assistance.,Fire,High,2,1,1,1,0
+E0199,Emergency situation. Electrical fire in a building Immediate response required.,Fire,High,2,1,1,1,0
+E0200,Urgent help needed. Electrical fire in a building People need urgent assistance.,Fire,High,2,1,1,1,0
+E0201,Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0202,Small fire in a dustbin near a park Situation is getting worse.,Fire,Low,4,0,1,0,0
+E0203,Urgent help needed. Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0204,Small fire in a dustbin near a park Please send help immediately.,Fire,Low,4,0,1,0,0
+E0205,Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0206,Please send help immediately. Small fire in a dustbin near a park Immediate response required.,Fire,Low,4,0,1,0,0
+E0207,Need immediate assistance. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0208,Emergency situation. Small fire in a dustbin near a park Immediate response required.,Fire,Low,4,0,1,0,0
+E0209,Please send help immediately. Small fire in a dustbin near a park Situation is getting worse.,Fire,Low,4,0,1,0,0
+E0210,Please send help immediately. Small fire in a dustbin near a park Please send help immediately.,Fire,Low,4,0,1,0,0
+E0211,Emergency situation. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0212,Small fire in a dustbin near a park Immediate response required.,Fire,Low,4,0,1,0,0
+E0213,Small fire in a dustbin near a park Immediate response required.,Fire,Low,4,0,1,0,0
+E0214,Please send help immediately. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0215,Urgent help needed. Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0216,Urgent help needed. Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0217,Urgent help needed. Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0218,Urgent help needed. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0219,Urgent help needed. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0220,Please send help immediately. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0221,Small fire in a dustbin near a park Please send help immediately.,Fire,Low,4,0,1,0,0
+E0222,Urgent help needed. Small fire in a dustbin near a park People need urgent assistance.,Fire,Low,4,0,1,0,0
+E0223,Emergency situation. Small fire in a dustbin near a park Please send help immediately.,Fire,Low,4,0,1,0,0
+E0224,Emergency situation. Small fire in a dustbin near a park,Fire,Low,4,0,1,0,0
+E0225,Small fire in a dustbin near a park Please send help immediately.,Fire,Low,4,0,1,0,0
+E0226,Fire in a vehicle parked on the roadside People need urgent assistance.,Fire,High,2,1,1,1,0
+E0227,Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0228,Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0229,Emergency situation. Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0230,Urgent help needed. Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0231,Emergency situation. Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0232,Urgent help needed. Fire in a vehicle parked on the roadside,Fire,High,2,1,1,1,0
+E0233,Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0234,Please send help immediately. Fire in a vehicle parked on the roadside People need urgent assistance.,Fire,High,2,1,1,1,0
+E0235,Please send help immediately. Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0236,Fire in a vehicle parked on the roadside,Fire,High,2,1,1,1,0
+E0237,Need immediate assistance. Fire in a vehicle parked on the roadside,Fire,High,2,1,1,1,0
+E0238,Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0239,Please send help immediately. Fire in a vehicle parked on the roadside Please send help immediately.,Fire,High,2,1,1,1,0
+E0240,Urgent help needed. Fire in a vehicle parked on the roadside Immediate response required.,Fire,High,2,1,1,1,0
+E0241,Fire in a vehicle parked on the roadside Immediate response required.,Fire,High,2,1,1,1,0
+E0242,Need immediate assistance. Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0243,Emergency situation. Fire in a vehicle parked on the roadside Immediate response required.,Fire,High,2,1,1,1,0
+E0244,Please send help immediately. Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0245,Urgent help needed. Fire in a vehicle parked on the roadside People need urgent assistance.,Fire,High,2,1,1,1,0
+E0246,Fire in a vehicle parked on the roadside Immediate response required.,Fire,High,2,1,1,1,0
+E0247,Please send help immediately. Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0248,Please send help immediately. Fire in a vehicle parked on the roadside,Fire,High,2,1,1,1,0
+E0249,Please send help immediately. Fire in a vehicle parked on the roadside Immediate response required.,Fire,High,2,1,1,1,0
+E0250,Fire in a vehicle parked on the roadside Situation is getting worse.,Fire,High,2,1,1,1,0
+E0251,"Bike accident near a signal, rider bleeding heavily People need urgent assistance.",Accident,Critical,1,1,0,1,0
+E0252,"Urgent help needed. Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0253,"Please send help immediately. Bike accident near a signal, rider bleeding heavily People need urgent assistance.",Accident,Critical,1,1,0,1,0
+E0254,"Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0255,"Need immediate assistance. Bike accident near a signal, rider bleeding heavily Please send help immediately.",Accident,Critical,1,1,0,1,0
+E0256,"Emergency situation. Bike accident near a signal, rider bleeding heavily",Accident,Critical,1,1,0,1,0
+E0257,"Urgent help needed. Bike accident near a signal, rider bleeding heavily Please send help immediately.",Accident,Critical,1,1,0,1,0
+E0258,"Please send help immediately. Bike accident near a signal, rider bleeding heavily People need urgent assistance.",Accident,Critical,1,1,0,1,0
+E0259,"Emergency situation. Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0260,"Need immediate assistance. Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0261,"Urgent help needed. Bike accident near a signal, rider bleeding heavily People need urgent assistance.",Accident,Critical,1,1,0,1,0
+E0262,"Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0263,"Bike accident near a signal, rider bleeding heavily Please send help immediately.",Accident,Critical,1,1,0,1,0
+E0264,"Urgent help needed. Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0265,"Urgent help needed. Bike accident near a signal, rider bleeding heavily",Accident,Critical,1,1,0,1,0
+E0266,"Urgent help needed. Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0267,"Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0268,"Bike accident near a signal, rider bleeding heavily",Accident,Critical,1,1,0,1,0
+E0269,"Please send help immediately. Bike accident near a signal, rider bleeding heavily",Accident,Critical,1,1,0,1,0
+E0270,"Please send help immediately. Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0271,"Urgent help needed. Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0272,"Emergency situation. Bike accident near a signal, rider bleeding heavily",Accident,Critical,1,1,0,1,0
+E0273,"Need immediate assistance. Bike accident near a signal, rider bleeding heavily Situation is getting worse.",Accident,Critical,1,1,0,1,0
+E0274,"Need immediate assistance. Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0275,"Bike accident near a signal, rider bleeding heavily Immediate response required.",Accident,Critical,1,1,0,1,0
+E0276,"Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0277,"Please send help immediately. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0278,"Emergency situation. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0279,"Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0280,"Car accident on a highway, two people injured Immediate response required.",Accident,High,2,1,0,1,0
+E0281,"Car accident on a highway, two people injured People need urgent assistance.",Accident,High,2,1,0,1,0
+E0282,"Emergency situation. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0283,"Urgent help needed. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0284,"Emergency situation. Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0285,"Emergency situation. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0286,"Urgent help needed. Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0287,"Emergency situation. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0288,"Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0289,"Need immediate assistance. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0290,"Emergency situation. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0291,"Emergency situation. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0292,"Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0293,"Car accident on a highway, two people injured Immediate response required.",Accident,High,2,1,0,1,0
+E0294,"Emergency situation. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0295,"Need immediate assistance. Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0296,"Need immediate assistance. Car accident on a highway, two people injured Please send help immediately.",Accident,High,2,1,0,1,0
+E0297,"Please send help immediately. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0298,"Need immediate assistance. Car accident on a highway, two people injured Immediate response required.",Accident,High,2,1,0,1,0
+E0299,"Please send help immediately. Car accident on a highway, two people injured",Accident,High,2,1,0,1,0
+E0300,"Urgent help needed. Car accident on a highway, two people injured Situation is getting worse.",Accident,High,2,1,0,1,0
+E0301,"Please send help immediately. Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0302,"Emergency situation. Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0303,"Emergency situation. Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0304,"Emergency situation. Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0305,"Urgent help needed. Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0306,"Minor road accident, no serious injury Immediate response required.",Accident,Medium,3,1,0,1,0
+E0307,"Urgent help needed. Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0308,"Emergency situation. Minor road accident, no serious injury Immediate response required.",Accident,Medium,3,1,0,1,0
+E0309,"Urgent help needed. Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0310,"Need immediate assistance. Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0311,"Need immediate assistance. Minor road accident, no serious injury Situation is getting worse.",Accident,Medium,3,1,0,1,0
+E0312,"Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0313,"Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0314,"Minor road accident, no serious injury Immediate response required.",Accident,Medium,3,1,0,1,0
+E0315,"Please send help immediately. Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0316,"Urgent help needed. Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0317,"Urgent help needed. Minor road accident, no serious injury Immediate response required.",Accident,Medium,3,1,0,1,0
+E0318,"Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0319,"Emergency situation. Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0320,"Need immediate assistance. Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0321,"Please send help immediately. Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0322,"Emergency situation. Minor road accident, no serious injury People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0323,"Minor road accident, no serious injury",Accident,Medium,3,1,0,1,0
+E0324,"Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0325,"Urgent help needed. Minor road accident, no serious injury Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0326,"Need immediate assistance. Truck overturned on a road, driver trapped inside Situation is getting worse.",Accident,Critical,1,1,0,1,1
+E0327,"Please send help immediately. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0328,"Emergency situation. Truck overturned on a road, driver trapped inside Situation is getting worse.",Accident,Critical,1,1,0,1,1
+E0329,"Please send help immediately. Truck overturned on a road, driver trapped inside People need urgent assistance.",Accident,Critical,1,1,0,1,1
+E0330,"Urgent help needed. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0331,"Need immediate assistance. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0332,"Truck overturned on a road, driver trapped inside",Accident,Critical,1,1,0,1,1
+E0333,"Need immediate assistance. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0334,"Urgent help needed. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0335,"Need immediate assistance. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0336,"Truck overturned on a road, driver trapped inside People need urgent assistance.",Accident,Critical,1,1,0,1,1
+E0337,"Urgent help needed. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0338,"Emergency situation. Truck overturned on a road, driver trapped inside",Accident,Critical,1,1,0,1,1
+E0339,"Please send help immediately. Truck overturned on a road, driver trapped inside Situation is getting worse.",Accident,Critical,1,1,0,1,1
+E0340,"Emergency situation. Truck overturned on a road, driver trapped inside Situation is getting worse.",Accident,Critical,1,1,0,1,1
+E0341,"Please send help immediately. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0342,"Need immediate assistance. Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0343,"Please send help immediately. Truck overturned on a road, driver trapped inside Please send help immediately.",Accident,Critical,1,1,0,1,1
+E0344,"Urgent help needed. Truck overturned on a road, driver trapped inside",Accident,Critical,1,1,0,1,1
+E0345,"Please send help immediately. Truck overturned on a road, driver trapped inside",Accident,Critical,1,1,0,1,1
+E0346,"Need immediate assistance. Truck overturned on a road, driver trapped inside",Accident,Critical,1,1,0,1,1
+E0347,"Emergency situation. Truck overturned on a road, driver trapped inside Situation is getting worse.",Accident,Critical,1,1,0,1,1
+E0348,"Emergency situation. Truck overturned on a road, driver trapped inside Please send help immediately.",Accident,Critical,1,1,0,1,1
+E0349,"Truck overturned on a road, driver trapped inside Immediate response required.",Accident,Critical,1,1,0,1,1
+E0350,"Truck overturned on a road, driver trapped inside Please send help immediately.",Accident,Critical,1,1,0,1,1
+E0351,Need immediate assistance. Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0352,Urgent help needed. Pedestrian hit by a car and is unconscious Immediate response required.,Accident,Critical,1,1,0,1,0
+E0353,Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0354,Need immediate assistance. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0355,Need immediate assistance. Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0356,Please send help immediately. Pedestrian hit by a car and is unconscious Situation is getting worse.,Accident,Critical,1,1,0,1,0
+E0357,Need immediate assistance. Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0358,Please send help immediately. Pedestrian hit by a car and is unconscious Situation is getting worse.,Accident,Critical,1,1,0,1,0
+E0359,Emergency situation. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0360,Urgent help needed. Pedestrian hit by a car and is unconscious,Accident,Critical,1,1,0,1,0
+E0361,Pedestrian hit by a car and is unconscious Immediate response required.,Accident,Critical,1,1,0,1,0
+E0362,Urgent help needed. Pedestrian hit by a car and is unconscious Situation is getting worse.,Accident,Critical,1,1,0,1,0
+E0363,Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0364,Urgent help needed. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0365,Emergency situation. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0366,Need immediate assistance. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0367,Need immediate assistance. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0368,Emergency situation. Pedestrian hit by a car and is unconscious Immediate response required.,Accident,Critical,1,1,0,1,0
+E0369,Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0370,Urgent help needed. Pedestrian hit by a car and is unconscious Situation is getting worse.,Accident,Critical,1,1,0,1,0
+E0371,Please send help immediately. Pedestrian hit by a car and is unconscious Immediate response required.,Accident,Critical,1,1,0,1,0
+E0372,Emergency situation. Pedestrian hit by a car and is unconscious Please send help immediately.,Accident,Critical,1,1,0,1,0
+E0373,Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0374,Emergency situation. Pedestrian hit by a car and is unconscious People need urgent assistance.,Accident,Critical,1,1,0,1,0
+E0375,Please send help immediately. Pedestrian hit by a car and is unconscious,Accident,Critical,1,1,0,1,0
+E0376,Emergency situation. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0377,Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0378,Emergency situation. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0379,Two vehicles collided at an intersection,Accident,High,2,1,0,1,0
+E0380,Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0381,Please send help immediately. Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0382,Urgent help needed. Two vehicles collided at an intersection Immediate response required.,Accident,High,2,1,0,1,0
+E0383,Need immediate assistance. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0384,Need immediate assistance. Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0385,Urgent help needed. Two vehicles collided at an intersection,Accident,High,2,1,0,1,0
+E0386,Urgent help needed. Two vehicles collided at an intersection Please send help immediately.,Accident,High,2,1,0,1,0
+E0387,Emergency situation. Two vehicles collided at an intersection Please send help immediately.,Accident,High,2,1,0,1,0
+E0388,Emergency situation. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0389,Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0390,Urgent help needed. Two vehicles collided at an intersection Situation is getting worse.,Accident,High,2,1,0,1,0
+E0391,Please send help immediately. Two vehicles collided at an intersection Immediate response required.,Accident,High,2,1,0,1,0
+E0392,Please send help immediately. Two vehicles collided at an intersection,Accident,High,2,1,0,1,0
+E0393,Please send help immediately. Two vehicles collided at an intersection Please send help immediately.,Accident,High,2,1,0,1,0
+E0394,Two vehicles collided at an intersection,Accident,High,2,1,0,1,0
+E0395,Need immediate assistance. Two vehicles collided at an intersection Please send help immediately.,Accident,High,2,1,0,1,0
+E0396,Need immediate assistance. Two vehicles collided at an intersection,Accident,High,2,1,0,1,0
+E0397,Need immediate assistance. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0398,Need immediate assistance. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0399,Emergency situation. Two vehicles collided at an intersection People need urgent assistance.,Accident,High,2,1,0,1,0
+E0400,Two vehicles collided at an intersection Please send help immediately.,Accident,High,2,1,0,1,0
+E0401,Urgent help needed. Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0402,Urgent help needed. Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0403,Emergency situation. Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0404,Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0405,Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0406,Need immediate assistance. Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0407,Bus accident with multiple passengers injured Please send help immediately.,Accident,Critical,1,1,0,1,1
+E0408,Please send help immediately. Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0409,Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0410,Urgent help needed. Bus accident with multiple passengers injured Please send help immediately.,Accident,Critical,1,1,0,1,1
+E0411,Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0412,Emergency situation. Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0413,Emergency situation. Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0414,Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0415,Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0416,Please send help immediately. Bus accident with multiple passengers injured Immediate response required.,Accident,Critical,1,1,0,1,1
+E0417,Emergency situation. Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0418,Please send help immediately. Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0419,Please send help immediately. Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0420,Please send help immediately. Bus accident with multiple passengers injured Immediate response required.,Accident,Critical,1,1,0,1,1
+E0421,Urgent help needed. Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0422,Bus accident with multiple passengers injured People need urgent assistance.,Accident,Critical,1,1,0,1,1
+E0423,Emergency situation. Bus accident with multiple passengers injured Immediate response required.,Accident,Critical,1,1,0,1,1
+E0424,Please send help immediately. Bus accident with multiple passengers injured,Accident,Critical,1,1,0,1,1
+E0425,Urgent help needed. Bus accident with multiple passengers injured Situation is getting worse.,Accident,Critical,1,1,0,1,1
+E0426,"Please send help immediately. Bicycle accident, cyclist has minor injuries Situation is getting worse.",Accident,Medium,3,1,0,1,0
+E0427,"Urgent help needed. Bicycle accident, cyclist has minor injuries Situation is getting worse.",Accident,Medium,3,1,0,1,0
+E0428,"Need immediate assistance. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0429,"Please send help immediately. Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0430,"Need immediate assistance. Bicycle accident, cyclist has minor injuries",Accident,Medium,3,1,0,1,0
+E0431,"Need immediate assistance. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0432,"Urgent help needed. Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0433,"Please send help immediately. Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0434,"Emergency situation. Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0435,"Urgent help needed. Bicycle accident, cyclist has minor injuries Situation is getting worse.",Accident,Medium,3,1,0,1,0
+E0436,"Urgent help needed. Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0437,"Emergency situation. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0438,"Please send help immediately. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0439,"Emergency situation. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0440,"Please send help immediately. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0441,"Please send help immediately. Bicycle accident, cyclist has minor injuries",Accident,Medium,3,1,0,1,0
+E0442,"Emergency situation. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0443,"Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0444,"Please send help immediately. Bicycle accident, cyclist has minor injuries People need urgent assistance.",Accident,Medium,3,1,0,1,0
+E0445,"Need immediate assistance. Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0446,"Need immediate assistance. Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0447,"Urgent help needed. Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0448,"Bicycle accident, cyclist has minor injuries Please send help immediately.",Accident,Medium,3,1,0,1,0
+E0449,"Emergency situation. Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0450,"Emergency situation. Bicycle accident, cyclist has minor injuries Immediate response required.",Accident,Medium,3,1,0,1,0
+E0451,Please send help immediately. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0452,Urgent help needed. A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0453,Urgent help needed. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0454,Urgent help needed. A person collapsed and is not responding People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0455,A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0456,Emergency situation. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0457,A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0458,Emergency situation. A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0459,Urgent help needed. A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0460,Need immediate assistance. A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0461,Urgent help needed. A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0462,Emergency situation. A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0463,Urgent help needed. A person collapsed and is not responding People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0464,Please send help immediately. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0465,Urgent help needed. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0466,Urgent help needed. A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0467,Urgent help needed. A person collapsed and is not responding Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0468,Need immediate assistance. A person collapsed and is not responding,Medical Emergency,Critical,1,1,0,0,0
+E0469,Please send help immediately. A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0470,Need immediate assistance. A person collapsed and is not responding People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0471,A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0472,Urgent help needed. A person collapsed and is not responding Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0473,Need immediate assistance. A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0474,Please send help immediately. A person collapsed and is not responding,Medical Emergency,Critical,1,1,0,0,0
+E0475,A person collapsed and is not responding Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0476,Person having severe chest pain and breathing difficulty Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0477,Urgent help needed. Person having severe chest pain and breathing difficulty,Medical Emergency,Critical,1,1,0,0,0
+E0478,Urgent help needed. Person having severe chest pain and breathing difficulty People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0479,Emergency situation. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0480,Person having severe chest pain and breathing difficulty Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0481,Need immediate assistance. Person having severe chest pain and breathing difficulty,Medical Emergency,Critical,1,1,0,0,0
+E0482,Need immediate assistance. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0483,Person having severe chest pain and breathing difficulty People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0484,Urgent help needed. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0485,Please send help immediately. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0486,Emergency situation. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0487,Need immediate assistance. Person having severe chest pain and breathing difficulty Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0488,Emergency situation. Person having severe chest pain and breathing difficulty,Medical Emergency,Critical,1,1,0,0,0
+E0489,Need immediate assistance. Person having severe chest pain and breathing difficulty People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0490,Please send help immediately. Person having severe chest pain and breathing difficulty People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0491,Emergency situation. Person having severe chest pain and breathing difficulty Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0492,Urgent help needed. Person having severe chest pain and breathing difficulty Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0493,Urgent help needed. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0494,Urgent help needed. Person having severe chest pain and breathing difficulty Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0495,Emergency situation. Person having severe chest pain and breathing difficulty Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0496,Urgent help needed. Person having severe chest pain and breathing difficulty Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0497,Urgent help needed. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0498,Need immediate assistance. Person having severe chest pain and breathing difficulty Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0499,Urgent help needed. Person having severe chest pain and breathing difficulty People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0500,Person having severe chest pain and breathing difficulty,Medical Emergency,Critical,1,1,0,0,0
+E0501,Please send help immediately. Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0502,Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0503,Emergency situation. Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0504,Need immediate assistance. Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0505,Need immediate assistance. Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0506,Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0507,Please send help immediately. Child has high fever and is unconscious Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0508,Please send help immediately. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0509,Urgent help needed. Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0510,Need immediate assistance. Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0511,Urgent help needed. Child has high fever and is unconscious,Medical Emergency,Critical,1,1,0,0,0
+E0512,Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0513,Need immediate assistance. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0514,Emergency situation. Child has high fever and is unconscious,Medical Emergency,Critical,1,1,0,0,0
+E0515,Urgent help needed. Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0516,Please send help immediately. Child has high fever and is unconscious Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0517,Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0518,Need immediate assistance. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0519,Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0520,Child has high fever and is unconscious Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0521,Please send help immediately. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0522,Urgent help needed. Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0523,Emergency situation. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0524,Child has high fever and is unconscious People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0525,Emergency situation. Child has high fever and is unconscious Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0526,Please send help immediately. Elderly person fell at home and cannot move,Medical Emergency,High,2,1,0,0,0
+E0527,Urgent help needed. Elderly person fell at home and cannot move Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0528,Please send help immediately. Elderly person fell at home and cannot move Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0529,Need immediate assistance. Elderly person fell at home and cannot move Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0530,Elderly person fell at home and cannot move,Medical Emergency,High,2,1,0,0,0
+E0531,Elderly person fell at home and cannot move Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0532,Please send help immediately. Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0533,Emergency situation. Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0534,Urgent help needed. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0535,Urgent help needed. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0536,Please send help immediately. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0537,Emergency situation. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0538,Need immediate assistance. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0539,Emergency situation. Elderly person fell at home and cannot move Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0540,Emergency situation. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0541,Please send help immediately. Elderly person fell at home and cannot move Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0542,Please send help immediately. Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0543,Need immediate assistance. Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0544,Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0545,Emergency situation. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0546,Need immediate assistance. Elderly person fell at home and cannot move Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0547,Urgent help needed. Elderly person fell at home and cannot move Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0548,Please send help immediately. Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0549,Need immediate assistance. Elderly person fell at home and cannot move Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0550,Elderly person fell at home and cannot move People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0551,Please send help immediately. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0552,Person having a seizure and needs urgent medical help Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0553,Person having a seizure and needs urgent medical help Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0554,Urgent help needed. Person having a seizure and needs urgent medical help Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0555,Urgent help needed. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0556,Urgent help needed. Person having a seizure and needs urgent medical help Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0557,Urgent help needed. Person having a seizure and needs urgent medical help Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0558,Urgent help needed. Person having a seizure and needs urgent medical help Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0559,Please send help immediately. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0560,Need immediate assistance. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0561,Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0562,Need immediate assistance. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0563,Please send help immediately. Person having a seizure and needs urgent medical help Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0564,Urgent help needed. Person having a seizure and needs urgent medical help,Medical Emergency,Critical,1,1,0,1,0
+E0565,Urgent help needed. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0566,Please send help immediately. Person having a seizure and needs urgent medical help,Medical Emergency,Critical,1,1,0,1,0
+E0567,Please send help immediately. Person having a seizure and needs urgent medical help Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0568,Emergency situation. Person having a seizure and needs urgent medical help Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0569,Emergency situation. Person having a seizure and needs urgent medical help Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0570,Emergency situation. Person having a seizure and needs urgent medical help Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0571,Person having a seizure and needs urgent medical help,Medical Emergency,Critical,1,1,0,1,0
+E0572,Urgent help needed. Person having a seizure and needs urgent medical help Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0573,Emergency situation. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0574,Urgent help needed. Person having a seizure and needs urgent medical help,Medical Emergency,Critical,1,1,0,1,0
+E0575,Need immediate assistance. Person having a seizure and needs urgent medical help People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0576,Person bleeding heavily after an injury Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0577,Need immediate assistance. Person bleeding heavily after an injury Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0578,Urgent help needed. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0579,Urgent help needed. Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0580,Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0581,Need immediate assistance. Person bleeding heavily after an injury Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0582,Need immediate assistance. Person bleeding heavily after an injury People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0583,Need immediate assistance. Person bleeding heavily after an injury People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0584,Please send help immediately. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0585,Please send help immediately. Person bleeding heavily after an injury People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0586,Urgent help needed. Person bleeding heavily after an injury Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0587,Need immediate assistance. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0588,Urgent help needed. Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0589,Need immediate assistance. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0590,Please send help immediately. Person bleeding heavily after an injury Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0591,Emergency situation. Person bleeding heavily after an injury Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0592,Urgent help needed. Person bleeding heavily after an injury Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0593,Emergency situation. Person bleeding heavily after an injury Situation is getting worse.,Medical Emergency,Critical,1,1,0,1,0
+E0594,Urgent help needed. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0595,Urgent help needed. Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0596,Please send help immediately. Person bleeding heavily after an injury Please send help immediately.,Medical Emergency,Critical,1,1,0,1,0
+E0597,Please send help immediately. Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0598,Need immediate assistance. Person bleeding heavily after an injury People need urgent assistance.,Medical Emergency,Critical,1,1,0,1,0
+E0599,Person bleeding heavily after an injury,Medical Emergency,Critical,1,1,0,1,0
+E0600,Please send help immediately. Person bleeding heavily after an injury Immediate response required.,Medical Emergency,Critical,1,1,0,1,0
+E0601,Need immediate assistance. Someone is having difficulty breathing,Medical Emergency,Critical,1,1,0,0,0
+E0602,Need immediate assistance. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0603,Please send help immediately. Someone is having difficulty breathing,Medical Emergency,Critical,1,1,0,0,0
+E0604,Urgent help needed. Someone is having difficulty breathing Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0605,Please send help immediately. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0606,Urgent help needed. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0607,Need immediate assistance. Someone is having difficulty breathing Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0608,Urgent help needed. Someone is having difficulty breathing Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0609,Please send help immediately. Someone is having difficulty breathing Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0610,Emergency situation. Someone is having difficulty breathing Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0611,Please send help immediately. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0612,Please send help immediately. Someone is having difficulty breathing Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0613,Need immediate assistance. Someone is having difficulty breathing Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0614,Urgent help needed. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0615,Emergency situation. Someone is having difficulty breathing Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0616,Someone is having difficulty breathing Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0617,Urgent help needed. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0618,Someone is having difficulty breathing Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0619,Emergency situation. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0620,Urgent help needed. Someone is having difficulty breathing Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0621,Please send help immediately. Someone is having difficulty breathing,Medical Emergency,Critical,1,1,0,0,0
+E0622,Urgent help needed. Someone is having difficulty breathing Please send help immediately.,Medical Emergency,Critical,1,1,0,0,0
+E0623,Urgent help needed. Someone is having difficulty breathing Immediate response required.,Medical Emergency,Critical,1,1,0,0,0
+E0624,Urgent help needed. Someone is having difficulty breathing Situation is getting worse.,Medical Emergency,Critical,1,1,0,0,0
+E0625,Urgent help needed. Someone is having difficulty breathing People need urgent assistance.,Medical Emergency,Critical,1,1,0,0,0
+E0626,Urgent help needed. Person feeling dizzy after gas exposure Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0627,Need immediate assistance. Person feeling dizzy after gas exposure People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0628,Emergency situation. Person feeling dizzy after gas exposure Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0629,Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0630,Need immediate assistance. Person feeling dizzy after gas exposure Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0631,Urgent help needed. Person feeling dizzy after gas exposure Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0632,Urgent help needed. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0633,Emergency situation. Person feeling dizzy after gas exposure Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0634,Please send help immediately. Person feeling dizzy after gas exposure Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0635,Emergency situation. Person feeling dizzy after gas exposure People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0636,Need immediate assistance. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0637,Need immediate assistance. Person feeling dizzy after gas exposure Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0638,Emergency situation. Person feeling dizzy after gas exposure Please send help immediately.,Medical Emergency,High,2,1,0,0,0
+E0639,Need immediate assistance. Person feeling dizzy after gas exposure People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0640,Urgent help needed. Person feeling dizzy after gas exposure Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0641,Urgent help needed. Person feeling dizzy after gas exposure Situation is getting worse.,Medical Emergency,High,2,1,0,0,0
+E0642,Need immediate assistance. Person feeling dizzy after gas exposure Immediate response required.,Medical Emergency,High,2,1,0,0,0
+E0643,Need immediate assistance. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0644,Urgent help needed. Person feeling dizzy after gas exposure People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0645,Please send help immediately. Person feeling dizzy after gas exposure People need urgent assistance.,Medical Emergency,High,2,1,0,0,0
+E0646,Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0647,Emergency situation. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0648,Need immediate assistance. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0649,Emergency situation. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0650,Urgent help needed. Person feeling dizzy after gas exposure,Medical Emergency,High,2,1,0,0,0
+E0651,Urgent help needed. Floodwater entering houses in a low-lying area Situation is getting worse.,Flood,High,2,1,0,1,1
+E0652,Urgent help needed. Floodwater entering houses in a low-lying area Situation is getting worse.,Flood,High,2,1,0,1,1
+E0653,Urgent help needed. Floodwater entering houses in a low-lying area Please send help immediately.,Flood,High,2,1,0,1,1
+E0654,Urgent help needed. Floodwater entering houses in a low-lying area People need urgent assistance.,Flood,High,2,1,0,1,1
+E0655,Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0656,Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0657,Urgent help needed. Floodwater entering houses in a low-lying area People need urgent assistance.,Flood,High,2,1,0,1,1
+E0658,Please send help immediately. Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0659,Urgent help needed. Floodwater entering houses in a low-lying area Please send help immediately.,Flood,High,2,1,0,1,1
+E0660,Emergency situation. Floodwater entering houses in a low-lying area People need urgent assistance.,Flood,High,2,1,0,1,1
+E0661,Need immediate assistance. Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0662,Urgent help needed. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0663,Emergency situation. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0664,Emergency situation. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0665,Please send help immediately. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0666,Urgent help needed. Floodwater entering houses in a low-lying area People need urgent assistance.,Flood,High,2,1,0,1,1
+E0667,Need immediate assistance. Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0668,Urgent help needed. Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0669,Urgent help needed. Floodwater entering houses in a low-lying area Please send help immediately.,Flood,High,2,1,0,1,1
+E0670,Urgent help needed. Floodwater entering houses in a low-lying area Please send help immediately.,Flood,High,2,1,0,1,1
+E0671,Urgent help needed. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0672,Please send help immediately. Floodwater entering houses in a low-lying area Immediate response required.,Flood,High,2,1,0,1,1
+E0673,Please send help immediately. Floodwater entering houses in a low-lying area,Flood,High,2,1,0,1,1
+E0674,Urgent help needed. Floodwater entering houses in a low-lying area Please send help immediately.,Flood,High,2,1,0,1,1
+E0675,Floodwater entering houses in a low-lying area Situation is getting worse.,Flood,High,2,1,0,1,1
+E0676,Please send help immediately. Heavy rain caused waterlogging on a main road Situation is getting worse.,Flood,Medium,3,0,0,1,0
+E0677,Heavy rain caused waterlogging on a main road Please send help immediately.,Flood,Medium,3,0,0,1,0
+E0678,Need immediate assistance. Heavy rain caused waterlogging on a main road Situation is getting worse.,Flood,Medium,3,0,0,1,0
+E0679,Heavy rain caused waterlogging on a main road,Flood,Medium,3,0,0,1,0
+E0680,Please send help immediately. Heavy rain caused waterlogging on a main road,Flood,Medium,3,0,0,1,0
+E0681,Need immediate assistance. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0682,Emergency situation. Heavy rain caused waterlogging on a main road Please send help immediately.,Flood,Medium,3,0,0,1,0
+E0683,Please send help immediately. Heavy rain caused waterlogging on a main road Situation is getting worse.,Flood,Medium,3,0,0,1,0
+E0684,Emergency situation. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0685,Urgent help needed. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0686,Emergency situation. Heavy rain caused waterlogging on a main road People need urgent assistance.,Flood,Medium,3,0,0,1,0
+E0687,Heavy rain caused waterlogging on a main road,Flood,Medium,3,0,0,1,0
+E0688,Heavy rain caused waterlogging on a main road,Flood,Medium,3,0,0,1,0
+E0689,Heavy rain caused waterlogging on a main road People need urgent assistance.,Flood,Medium,3,0,0,1,0
+E0690,Emergency situation. Heavy rain caused waterlogging on a main road Please send help immediately.,Flood,Medium,3,0,0,1,0
+E0691,Need immediate assistance. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0692,Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0693,Urgent help needed. Heavy rain caused waterlogging on a main road Situation is getting worse.,Flood,Medium,3,0,0,1,0
+E0694,Urgent help needed. Heavy rain caused waterlogging on a main road Please send help immediately.,Flood,Medium,3,0,0,1,0
+E0695,Need immediate assistance. Heavy rain caused waterlogging on a main road Please send help immediately.,Flood,Medium,3,0,0,1,0
+E0696,Need immediate assistance. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0697,Please send help immediately. Heavy rain caused waterlogging on a main road Situation is getting worse.,Flood,Medium,3,0,0,1,0
+E0698,Heavy rain caused waterlogging on a main road People need urgent assistance.,Flood,Medium,3,0,0,1,0
+E0699,Heavy rain caused waterlogging on a main road,Flood,Medium,3,0,0,1,0
+E0700,Please send help immediately. Heavy rain caused waterlogging on a main road Immediate response required.,Flood,Medium,3,0,0,1,0
+E0701,People stranded on a rooftop due to flood Situation is getting worse.,Flood,Critical,1,1,0,1,1
+E0702,Emergency situation. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0703,Please send help immediately. People stranded on a rooftop due to flood,Flood,Critical,1,1,0,1,1
+E0704,Urgent help needed. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0705,Urgent help needed. People stranded on a rooftop due to flood Immediate response required.,Flood,Critical,1,1,0,1,1
+E0706,Need immediate assistance. People stranded on a rooftop due to flood Immediate response required.,Flood,Critical,1,1,0,1,1
+E0707,Need immediate assistance. People stranded on a rooftop due to flood Situation is getting worse.,Flood,Critical,1,1,0,1,1
+E0708,Need immediate assistance. People stranded on a rooftop due to flood Immediate response required.,Flood,Critical,1,1,0,1,1
+E0709,Please send help immediately. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0710,Need immediate assistance. People stranded on a rooftop due to flood Situation is getting worse.,Flood,Critical,1,1,0,1,1
+E0711,Urgent help needed. People stranded on a rooftop due to flood Please send help immediately.,Flood,Critical,1,1,0,1,1
+E0712,Urgent help needed. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0713,Please send help immediately. People stranded on a rooftop due to flood,Flood,Critical,1,1,0,1,1
+E0714,People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0715,Urgent help needed. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0716,Emergency situation. People stranded on a rooftop due to flood Please send help immediately.,Flood,Critical,1,1,0,1,1
+E0717,Emergency situation. People stranded on a rooftop due to flood Situation is getting worse.,Flood,Critical,1,1,0,1,1
+E0718,Please send help immediately. People stranded on a rooftop due to flood Immediate response required.,Flood,Critical,1,1,0,1,1
+E0719,Need immediate assistance. People stranded on a rooftop due to flood Situation is getting worse.,Flood,Critical,1,1,0,1,1
+E0720,Need immediate assistance. People stranded on a rooftop due to flood Immediate response required.,Flood,Critical,1,1,0,1,1
+E0721,Need immediate assistance. People stranded on a rooftop due to flood,Flood,Critical,1,1,0,1,1
+E0722,Need immediate assistance. People stranded on a rooftop due to flood,Flood,Critical,1,1,0,1,1
+E0723,Emergency situation. People stranded on a rooftop due to flood Please send help immediately.,Flood,Critical,1,1,0,1,1
+E0724,Urgent help needed. People stranded on a rooftop due to flood People need urgent assistance.,Flood,Critical,1,1,0,1,1
+E0725,Emergency situation. People stranded on a rooftop due to flood Please send help immediately.,Flood,Critical,1,1,0,1,1
+E0726,"Emergency situation. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0727,"Please send help immediately. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0728,"Urgent help needed. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0729,"River overflowing near a village, houses submerged Immediate response required.",Flood,Critical,1,1,0,1,1
+E0730,"Need immediate assistance. River overflowing near a village, houses submerged Situation is getting worse.",Flood,Critical,1,1,0,1,1
+E0731,"Please send help immediately. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0732,"Please send help immediately. River overflowing near a village, houses submerged People need urgent assistance.",Flood,Critical,1,1,0,1,1
+E0733,"Please send help immediately. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0734,"Urgent help needed. River overflowing near a village, houses submerged Immediate response required.",Flood,Critical,1,1,0,1,1
+E0735,"River overflowing near a village, houses submerged Immediate response required.",Flood,Critical,1,1,0,1,1
+E0736,"Emergency situation. River overflowing near a village, houses submerged Situation is getting worse.",Flood,Critical,1,1,0,1,1
+E0737,"Emergency situation. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0738,"Please send help immediately. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0739,"Please send help immediately. River overflowing near a village, houses submerged People need urgent assistance.",Flood,Critical,1,1,0,1,1
+E0740,"Need immediate assistance. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0741,"Emergency situation. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0742,"Urgent help needed. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0743,"Urgent help needed. River overflowing near a village, houses submerged Immediate response required.",Flood,Critical,1,1,0,1,1
+E0744,"Please send help immediately. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0745,"Please send help immediately. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0746,"Please send help immediately. River overflowing near a village, houses submerged",Flood,Critical,1,1,0,1,1
+E0747,"Emergency situation. River overflowing near a village, houses submerged Situation is getting worse.",Flood,Critical,1,1,0,1,1
+E0748,"Urgent help needed. River overflowing near a village, houses submerged People need urgent assistance.",Flood,Critical,1,1,0,1,1
+E0749,"Emergency situation. River overflowing near a village, houses submerged Please send help immediately.",Flood,Critical,1,1,0,1,1
+E0750,"River overflowing near a village, houses submerged Situation is getting worse.",Flood,Critical,1,1,0,1,1
+E0751,Need immediate assistance. Flood alert issued after continuous heavy rainfall Immediate response required.,Flood,High,2,0,0,1,1
+E0752,Flood alert issued after continuous heavy rainfall Please send help immediately.,Flood,High,2,0,0,1,1
+E0753,Emergency situation. Flood alert issued after continuous heavy rainfall People need urgent assistance.,Flood,High,2,0,0,1,1
+E0754,Urgent help needed. Flood alert issued after continuous heavy rainfall Situation is getting worse.,Flood,High,2,0,0,1,1
+E0755,Please send help immediately. Flood alert issued after continuous heavy rainfall Situation is getting worse.,Flood,High,2,0,0,1,1
+E0756,Flood alert issued after continuous heavy rainfall Please send help immediately.,Flood,High,2,0,0,1,1
+E0757,Emergency situation. Flood alert issued after continuous heavy rainfall Please send help immediately.,Flood,High,2,0,0,1,1
+E0758,Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0759,Please send help immediately. Flood alert issued after continuous heavy rainfall Situation is getting worse.,Flood,High,2,0,0,1,1
+E0760,Urgent help needed. Flood alert issued after continuous heavy rainfall People need urgent assistance.,Flood,High,2,0,0,1,1
+E0761,Need immediate assistance. Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0762,Urgent help needed. Flood alert issued after continuous heavy rainfall People need urgent assistance.,Flood,High,2,0,0,1,1
+E0763,Urgent help needed. Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0764,Need immediate assistance. Flood alert issued after continuous heavy rainfall Please send help immediately.,Flood,High,2,0,0,1,1
+E0765,Flood alert issued after continuous heavy rainfall Please send help immediately.,Flood,High,2,0,0,1,1
+E0766,Urgent help needed. Flood alert issued after continuous heavy rainfall Immediate response required.,Flood,High,2,0,0,1,1
+E0767,Need immediate assistance. Flood alert issued after continuous heavy rainfall Immediate response required.,Flood,High,2,0,0,1,1
+E0768,Need immediate assistance. Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0769,Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0770,Urgent help needed. Flood alert issued after continuous heavy rainfall People need urgent assistance.,Flood,High,2,0,0,1,1
+E0771,Emergency situation. Flood alert issued after continuous heavy rainfall Immediate response required.,Flood,High,2,0,0,1,1
+E0772,Need immediate assistance. Flood alert issued after continuous heavy rainfall Situation is getting worse.,Flood,High,2,0,0,1,1
+E0773,Urgent help needed. Flood alert issued after continuous heavy rainfall People need urgent assistance.,Flood,High,2,0,0,1,1
+E0774,Emergency situation. Flood alert issued after continuous heavy rainfall,Flood,High,2,0,0,1,1
+E0775,Flood alert issued after continuous heavy rainfall Immediate response required.,Flood,High,2,0,0,1,1
+E0776,Please send help immediately. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0777,Emergency situation. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0778,Please send help immediately. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0779,Need immediate assistance. Water entering a residential society after heavy rain,Flood,High,2,1,0,1,1
+E0780,Need immediate assistance. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0781,Urgent help needed. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0782,Please send help immediately. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0783,Emergency situation. Water entering a residential society after heavy rain,Flood,High,2,1,0,1,1
+E0784,Emergency situation. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0785,Please send help immediately. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0786,Emergency situation. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0787,Emergency situation. Water entering a residential society after heavy rain Situation is getting worse.,Flood,High,2,1,0,1,1
+E0788,Urgent help needed. Water entering a residential society after heavy rain,Flood,High,2,1,0,1,1
+E0789,Urgent help needed. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0790,Emergency situation. Water entering a residential society after heavy rain Situation is getting worse.,Flood,High,2,1,0,1,1
+E0791,Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0792,Please send help immediately. Water entering a residential society after heavy rain,Flood,High,2,1,0,1,1
+E0793,Urgent help needed. Water entering a residential society after heavy rain Situation is getting worse.,Flood,High,2,1,0,1,1
+E0794,Emergency situation. Water entering a residential society after heavy rain People need urgent assistance.,Flood,High,2,1,0,1,1
+E0795,Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0796,Emergency situation. Water entering a residential society after heavy rain People need urgent assistance.,Flood,High,2,1,0,1,1
+E0797,Urgent help needed. Water entering a residential society after heavy rain Please send help immediately.,Flood,High,2,1,0,1,1
+E0798,Emergency situation. Water entering a residential society after heavy rain,Flood,High,2,1,0,1,1
+E0799,Need immediate assistance. Water entering a residential society after heavy rain Immediate response required.,Flood,High,2,1,0,1,1
+E0800,Need immediate assistance. Water entering a residential society after heavy rain People need urgent assistance.,Flood,High,2,1,0,1,1
+E0801,"Please send help immediately. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0802,"Urgent help needed. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0803,"Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0804,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy Immediate response required.",Gas Leakage,High,2,1,1,0,0
+E0805,"Urgent help needed. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0806,"Please send help immediately. Strong gas smell in a kitchen, people feeling dizzy People need urgent assistance.",Gas Leakage,High,2,1,1,0,0
+E0807,"Please send help immediately. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0808,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0809,"Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0810,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0811,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0812,"Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0813,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy People need urgent assistance.",Gas Leakage,High,2,1,1,0,0
+E0814,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0815,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0816,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy People need urgent assistance.",Gas Leakage,High,2,1,1,0,0
+E0817,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0818,"Urgent help needed. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0819,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0820,"Please send help immediately. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0821,"Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0822,"Emergency situation. Strong gas smell in a kitchen, people feeling dizzy Please send help immediately.",Gas Leakage,High,2,1,1,0,0
+E0823,"Need immediate assistance. Strong gas smell in a kitchen, people feeling dizzy",Gas Leakage,High,2,1,1,0,0
+E0824,"Urgent help needed. Strong gas smell in a kitchen, people feeling dizzy Situation is getting worse.",Gas Leakage,High,2,1,1,0,0
+E0825,"Please send help immediately. Strong gas smell in a kitchen, people feeling dizzy Immediate response required.",Gas Leakage,High,2,1,1,0,0
+E0826,Please send help immediately. Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0827,Urgent help needed. Gas cylinder leakage in a restaurant Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0828,Need immediate assistance. Gas cylinder leakage in a restaurant Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0829,Need immediate assistance. Gas cylinder leakage in a restaurant People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,0
+E0830,Need immediate assistance. Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0831,Please send help immediately. Gas cylinder leakage in a restaurant Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0832,Please send help immediately. Gas cylinder leakage in a restaurant People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,0
+E0833,Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0834,Need immediate assistance. Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0835,Please send help immediately. Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0836,Please send help immediately. Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0837,Need immediate assistance. Gas cylinder leakage in a restaurant Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0838,Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0839,Need immediate assistance. Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0840,Emergency situation. Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0841,Gas cylinder leakage in a restaurant Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0842,Please send help immediately. Gas cylinder leakage in a restaurant Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0843,Please send help immediately. Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0844,Emergency situation. Gas cylinder leakage in a restaurant Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0845,Need immediate assistance. Gas cylinder leakage in a restaurant Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0846,Need immediate assistance. Gas cylinder leakage in a restaurant Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0847,Urgent help needed. Gas cylinder leakage in a restaurant Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0848,Emergency situation. Gas cylinder leakage in a restaurant People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,0
+E0849,Urgent help needed. Gas cylinder leakage in a restaurant,Gas Leakage,Critical,1,1,1,1,0
+E0850,Urgent help needed. Gas cylinder leakage in a restaurant Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0851,Emergency situation. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0852,Emergency situation. LPG leakage in a residential area,Gas Leakage,High,2,1,1,1,0
+E0853,Please send help immediately. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0854,Need immediate assistance. LPG leakage in a residential area,Gas Leakage,High,2,1,1,1,0
+E0855,Urgent help needed. LPG leakage in a residential area People need urgent assistance.,Gas Leakage,High,2,1,1,1,0
+E0856,Urgent help needed. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0857,Please send help immediately. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0858,Please send help immediately. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0859,Please send help immediately. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0860,LPG leakage in a residential area,Gas Leakage,High,2,1,1,1,0
+E0861,Need immediate assistance. LPG leakage in a residential area Please send help immediately.,Gas Leakage,High,2,1,1,1,0
+E0862,Please send help immediately. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0863,Urgent help needed. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0864,Please send help immediately. LPG leakage in a residential area Please send help immediately.,Gas Leakage,High,2,1,1,1,0
+E0865,Emergency situation. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0866,Need immediate assistance. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0867,Need immediate assistance. LPG leakage in a residential area Please send help immediately.,Gas Leakage,High,2,1,1,1,0
+E0868,Please send help immediately. LPG leakage in a residential area People need urgent assistance.,Gas Leakage,High,2,1,1,1,0
+E0869,Need immediate assistance. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0870,Emergency situation. LPG leakage in a residential area Situation is getting worse.,Gas Leakage,High,2,1,1,1,0
+E0871,Emergency situation. LPG leakage in a residential area People need urgent assistance.,Gas Leakage,High,2,1,1,1,0
+E0872,LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0873,Need immediate assistance. LPG leakage in a residential area,Gas Leakage,High,2,1,1,1,0
+E0874,Emergency situation. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0875,Urgent help needed. LPG leakage in a residential area Immediate response required.,Gas Leakage,High,2,1,1,1,0
+E0876,Please send help immediately. Gas pipeline leakage reported near a building People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,0
+E0877,Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0878,Please send help immediately. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0879,Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0880,Emergency situation. Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0881,Urgent help needed. Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0882,Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0883,Please send help immediately. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0884,Emergency situation. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0885,Emergency situation. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0886,Emergency situation. Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0887,Need immediate assistance. Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0888,Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0889,Need immediate assistance. Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0890,Urgent help needed. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0891,Gas pipeline leakage reported near a building Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0892,Urgent help needed. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0893,Urgent help needed. Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0894,Gas pipeline leakage reported near a building Immediate response required.,Gas Leakage,Critical,1,1,1,1,0
+E0895,Urgent help needed. Gas pipeline leakage reported near a building People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,0
+E0896,Emergency situation. Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0897,Urgent help needed. Gas pipeline leakage reported near a building Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,0
+E0898,Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0899,Emergency situation. Gas pipeline leakage reported near a building Please send help immediately.,Gas Leakage,Critical,1,1,1,1,0
+E0900,Need immediate assistance. Gas pipeline leakage reported near a building,Gas Leakage,Critical,1,1,1,1,0
+E0901,Please send help immediately. Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0902,Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0903,Chemical gas smell in an industrial area,Gas Leakage,Critical,1,1,1,1,1
+E0904,Need immediate assistance. Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0905,Chemical gas smell in an industrial area Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,1
+E0906,Urgent help needed. Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0907,Need immediate assistance. Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0908,Emergency situation. Chemical gas smell in an industrial area,Gas Leakage,Critical,1,1,1,1,1
+E0909,Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0910,Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0911,Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0912,Urgent help needed. Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0913,Need immediate assistance. Chemical gas smell in an industrial area,Gas Leakage,Critical,1,1,1,1,1
+E0914,Please send help immediately. Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0915,Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0916,Emergency situation. Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0917,Emergency situation. Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0918,Please send help immediately. Chemical gas smell in an industrial area,Gas Leakage,Critical,1,1,1,1,1
+E0919,Urgent help needed. Chemical gas smell in an industrial area People need urgent assistance.,Gas Leakage,Critical,1,1,1,1,1
+E0920,Emergency situation. Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0921,Chemical gas smell in an industrial area Immediate response required.,Gas Leakage,Critical,1,1,1,1,1
+E0922,Emergency situation. Chemical gas smell in an industrial area Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,1
+E0923,Need immediate assistance. Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0924,Emergency situation. Chemical gas smell in an industrial area Situation is getting worse.,Gas Leakage,Critical,1,1,1,1,1
+E0925,Please send help immediately. Chemical gas smell in an industrial area Please send help immediately.,Gas Leakage,Critical,1,1,1,1,1
+E0926,"Please send help immediately. Part of a building collapsed, people trapped under debris",Building Collapse,Critical,1,1,1,1,1
+E0927,"Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0928,"Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0929,"Need immediate assistance. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0930,"Need immediate assistance. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0931,"Please send help immediately. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0932,"Need immediate assistance. Part of a building collapsed, people trapped under debris",Building Collapse,Critical,1,1,1,1,1
+E0933,"Need immediate assistance. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0934,"Part of a building collapsed, people trapped under debris Please send help immediately.",Building Collapse,Critical,1,1,1,1,1
+E0935,"Emergency situation. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0936,"Emergency situation. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0937,"Need immediate assistance. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0938,"Please send help immediately. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0939,"Need immediate assistance. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0940,"Urgent help needed. Part of a building collapsed, people trapped under debris Immediate response required.",Building Collapse,Critical,1,1,1,1,1
+E0941,"Emergency situation. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0942,"Emergency situation. Part of a building collapsed, people trapped under debris",Building Collapse,Critical,1,1,1,1,1
+E0943,"Please send help immediately. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0944,"Urgent help needed. Part of a building collapsed, people trapped under debris Please send help immediately.",Building Collapse,Critical,1,1,1,1,1
+E0945,"Part of a building collapsed, people trapped under debris Please send help immediately.",Building Collapse,Critical,1,1,1,1,1
+E0946,"Need immediate assistance. Part of a building collapsed, people trapped under debris Situation is getting worse.",Building Collapse,Critical,1,1,1,1,1
+E0947,"Need immediate assistance. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0948,"Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0949,"Urgent help needed. Part of a building collapsed, people trapped under debris People need urgent assistance.",Building Collapse,Critical,1,1,1,1,1
+E0950,"Please send help immediately. Part of a building collapsed, people trapped under debris",Building Collapse,Critical,1,1,1,1,1
+E0951,"Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0952,"Wall collapsed at a construction site, worker injured Situation is getting worse.",Building Collapse,Critical,1,1,0,1,1
+E0953,"Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0954,"Need immediate assistance. Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0955,"Please send help immediately. Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0956,"Please send help immediately. Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0957,"Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0958,"Need immediate assistance. Wall collapsed at a construction site, worker injured",Building Collapse,Critical,1,1,0,1,1
+E0959,"Please send help immediately. Wall collapsed at a construction site, worker injured Situation is getting worse.",Building Collapse,Critical,1,1,0,1,1
+E0960,"Need immediate assistance. Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0961,"Need immediate assistance. Wall collapsed at a construction site, worker injured Immediate response required.",Building Collapse,Critical,1,1,0,1,1
+E0962,"Emergency situation. Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0963,"Please send help immediately. Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0964,"Need immediate assistance. Wall collapsed at a construction site, worker injured",Building Collapse,Critical,1,1,0,1,1
+E0965,"Please send help immediately. Wall collapsed at a construction site, worker injured Situation is getting worse.",Building Collapse,Critical,1,1,0,1,1
+E0966,"Urgent help needed. Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0967,"Please send help immediately. Wall collapsed at a construction site, worker injured Immediate response required.",Building Collapse,Critical,1,1,0,1,1
+E0968,"Wall collapsed at a construction site, worker injured",Building Collapse,Critical,1,1,0,1,1
+E0969,"Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0970,"Need immediate assistance. Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0971,"Wall collapsed at a construction site, worker injured Please send help immediately.",Building Collapse,Critical,1,1,0,1,1
+E0972,"Urgent help needed. Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0973,"Need immediate assistance. Wall collapsed at a construction site, worker injured",Building Collapse,Critical,1,1,0,1,1
+E0974,"Please send help immediately. Wall collapsed at a construction site, worker injured People need urgent assistance.",Building Collapse,Critical,1,1,0,1,1
+E0975,"Wall collapsed at a construction site, worker injured Situation is getting worse.",Building Collapse,Critical,1,1,0,1,1
+E0976,Roof collapsed in an old building,Building Collapse,Critical,1,1,1,1,1
+E0977,Need immediate assistance. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E0978,Urgent help needed. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0979,Need immediate assistance. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0980,Please send help immediately. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0981,Need immediate assistance. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0982,Emergency situation. Roof collapsed in an old building Immediate response required.,Building Collapse,Critical,1,1,1,1,1
+E0983,Emergency situation. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0984,Need immediate assistance. Roof collapsed in an old building,Building Collapse,Critical,1,1,1,1,1
+E0985,Roof collapsed in an old building People need urgent assistance.,Building Collapse,Critical,1,1,1,1,1
+E0986,Please send help immediately. Roof collapsed in an old building,Building Collapse,Critical,1,1,1,1,1
+E0987,Urgent help needed. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0988,Emergency situation. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E0989,Please send help immediately. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0990,Emergency situation. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E0991,Urgent help needed. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E0992,Need immediate assistance. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0993,Please send help immediately. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E0994,Emergency situation. Roof collapsed in an old building People need urgent assistance.,Building Collapse,Critical,1,1,1,1,1
+E0995,Need immediate assistance. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0996,Need immediate assistance. Roof collapsed in an old building Immediate response required.,Building Collapse,Critical,1,1,1,1,1
+E0997,Need immediate assistance. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0998,Please send help immediately. Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E0999,Need immediate assistance. Roof collapsed in an old building Please send help immediately.,Building Collapse,Critical,1,1,1,1,1
+E1000,Roof collapsed in an old building Situation is getting worse.,Building Collapse,Critical,1,1,1,1,1
+E1001,Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1002,Emergency situation. Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1003,Urgent help needed. Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1004,Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1005,Urgent help needed. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1006,Emergency situation. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1007,Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1008,Need immediate assistance. Scaffolding collapsed at a construction site Immediate response required.,Building Collapse,High,2,1,0,1,1
+E1009,Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1010,Need immediate assistance. Scaffolding collapsed at a construction site Immediate response required.,Building Collapse,High,2,1,0,1,1
+E1011,Urgent help needed. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1012,Scaffolding collapsed at a construction site People need urgent assistance.,Building Collapse,High,2,1,0,1,1
+E1013,Need immediate assistance. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1014,Need immediate assistance. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1015,Emergency situation. Scaffolding collapsed at a construction site Please send help immediately.,Building Collapse,High,2,1,0,1,1
+E1016,Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1017,Emergency situation. Scaffolding collapsed at a construction site Situation is getting worse.,Building Collapse,High,2,1,0,1,1
+E1018,Urgent help needed. Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1019,Need immediate assistance. Scaffolding collapsed at a construction site People need urgent assistance.,Building Collapse,High,2,1,0,1,1
+E1020,Emergency situation. Scaffolding collapsed at a construction site Situation is getting worse.,Building Collapse,High,2,1,0,1,1
+E1021,Please send help immediately. Scaffolding collapsed at a construction site Immediate response required.,Building Collapse,High,2,1,0,1,1
+E1022,Scaffolding collapsed at a construction site,Building Collapse,High,2,1,0,1,1
+E1023,Scaffolding collapsed at a construction site Immediate response required.,Building Collapse,High,2,1,0,1,1
+E1024,Please send help immediately. Scaffolding collapsed at a construction site Immediate response required.,Building Collapse,High,2,1,0,1,1
+E1025,Need immediate assistance. Scaffolding collapsed at a construction site People need urgent assistance.,Building Collapse,High,2,1,0,1,1
+E1026,Please send help immediately. Someone is following me and I feel unsafe,Personal Safety,High,2,0,0,1,0
+E1027,Emergency situation. Someone is following me and I feel unsafe Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1028,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1029,Emergency situation. Someone is following me and I feel unsafe,Personal Safety,High,2,0,0,1,0
+E1030,Please send help immediately. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1031,Urgent help needed. Someone is following me and I feel unsafe People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1032,Please send help immediately. Someone is following me and I feel unsafe Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1033,Please send help immediately. Someone is following me and I feel unsafe Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1034,Someone is following me and I feel unsafe People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1035,Someone is following me and I feel unsafe Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1036,Emergency situation. Someone is following me and I feel unsafe,Personal Safety,High,2,0,0,1,0
+E1037,Emergency situation. Someone is following me and I feel unsafe People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1038,Need immediate assistance. Someone is following me and I feel unsafe Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1039,Emergency situation. Someone is following me and I feel unsafe People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1040,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1041,Need immediate assistance. Someone is following me and I feel unsafe People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1042,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1043,Please send help immediately. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1044,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1045,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1046,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1047,Need immediate assistance. Someone is following me and I feel unsafe Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1048,Emergency situation. Someone is following me and I feel unsafe Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1049,Need immediate assistance. Someone is following me and I feel unsafe Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1050,Need immediate assistance. Someone is following me and I feel unsafe Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1051,Unknown person trying to enter a house Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1052,Please send help immediately. Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1053,Need immediate assistance. Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1054,Please send help immediately. Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1055,Please send help immediately. Unknown person trying to enter a house Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1056,Need immediate assistance. Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1057,Please send help immediately. Unknown person trying to enter a house Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1058,Urgent help needed. Unknown person trying to enter a house Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1059,Please send help immediately. Unknown person trying to enter a house Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1060,Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1061,Please send help immediately. Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1062,Need immediate assistance. Unknown person trying to enter a house Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1063,Urgent help needed. Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1064,Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1065,Need immediate assistance. Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1066,Unknown person trying to enter a house Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1067,Need immediate assistance. Unknown person trying to enter a house Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1068,Urgent help needed. Unknown person trying to enter a house Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1069,Need immediate assistance. Unknown person trying to enter a house Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1070,Please send help immediately. Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1071,Unknown person trying to enter a house Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1072,Unknown person trying to enter a house,Personal Safety,High,2,0,0,1,0
+E1073,Emergency situation. Unknown person trying to enter a house Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1074,Please send help immediately. Unknown person trying to enter a house People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1075,Unknown person trying to enter a house Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1076,"Emergency situation. Fight happening outside a shop, people injured Immediate response required.",Personal Safety,High,2,1,0,1,0
+E1077,"Urgent help needed. Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1078,"Urgent help needed. Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1079,"Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1080,"Need immediate assistance. Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1081,"Emergency situation. Fight happening outside a shop, people injured Please send help immediately.",Personal Safety,High,2,1,0,1,0
+E1082,"Please send help immediately. Fight happening outside a shop, people injured Please send help immediately.",Personal Safety,High,2,1,0,1,0
+E1083,"Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1084,"Need immediate assistance. Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1085,"Please send help immediately. Fight happening outside a shop, people injured Immediate response required.",Personal Safety,High,2,1,0,1,0
+E1086,"Please send help immediately. Fight happening outside a shop, people injured Please send help immediately.",Personal Safety,High,2,1,0,1,0
+E1087,"Please send help immediately. Fight happening outside a shop, people injured",Personal Safety,High,2,1,0,1,0
+E1088,"Urgent help needed. Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1089,"Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1090,"Urgent help needed. Fight happening outside a shop, people injured",Personal Safety,High,2,1,0,1,0
+E1091,"Need immediate assistance. Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1092,"Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1093,"Fight happening outside a shop, people injured Please send help immediately.",Personal Safety,High,2,1,0,1,0
+E1094,"Emergency situation. Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1095,"Fight happening outside a shop, people injured",Personal Safety,High,2,1,0,1,0
+E1096,"Urgent help needed. Fight happening outside a shop, people injured Immediate response required.",Personal Safety,High,2,1,0,1,0
+E1097,"Please send help immediately. Fight happening outside a shop, people injured Situation is getting worse.",Personal Safety,High,2,1,0,1,0
+E1098,"Emergency situation. Fight happening outside a shop, people injured",Personal Safety,High,2,1,0,1,0
+E1099,"Need immediate assistance. Fight happening outside a shop, people injured Please send help immediately.",Personal Safety,High,2,1,0,1,0
+E1100,"Emergency situation. Fight happening outside a shop, people injured People need urgent assistance.",Personal Safety,High,2,1,0,1,0
+E1101,Emergency situation. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1102,Emergency situation. Woman feels threatened by an unknown person Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1103,Emergency situation. Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1104,Emergency situation. Woman feels threatened by an unknown person People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1105,Woman feels threatened by an unknown person People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1106,Emergency situation. Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1107,Urgent help needed. Woman feels threatened by an unknown person Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1108,Emergency situation. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1109,Emergency situation. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1110,Emergency situation. Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1111,Woman feels threatened by an unknown person People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1112,Need immediate assistance. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1113,Need immediate assistance. Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1114,Emergency situation. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1115,Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1116,Emergency situation. Woman feels threatened by an unknown person,Personal Safety,High,2,0,0,1,0
+E1117,Need immediate assistance. Woman feels threatened by an unknown person Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1118,Woman feels threatened by an unknown person,Personal Safety,High,2,0,0,1,0
+E1119,Woman feels threatened by an unknown person,Personal Safety,High,2,0,0,1,0
+E1120,Please send help immediately. Woman feels threatened by an unknown person Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1121,Urgent help needed. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1122,Woman feels threatened by an unknown person Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1123,Need immediate assistance. Woman feels threatened by an unknown person Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1124,Woman feels threatened by an unknown person Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1125,Emergency situation. Woman feels threatened by an unknown person,Personal Safety,High,2,0,0,1,0
+E1126,Emergency situation. Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1127,Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1128,Please send help immediately. Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1129,Urgent help needed. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1130,Theft attempt reported in a residential area Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1131,Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1132,Urgent help needed. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1133,Please send help immediately. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1134,Urgent help needed. Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1135,Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1136,Emergency situation. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1137,Theft attempt reported in a residential area Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1138,Need immediate assistance. Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1139,Emergency situation. Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1140,Need immediate assistance. Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1141,Urgent help needed. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1142,Please send help immediately. Theft attempt reported in a residential area,Personal Safety,High,2,0,0,1,0
+E1143,Urgent help needed. Theft attempt reported in a residential area Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1144,Urgent help needed. Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1145,Theft attempt reported in a residential area Please send help immediately.,Personal Safety,High,2,0,0,1,0
+E1146,Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1147,Emergency situation. Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1148,Urgent help needed. Theft attempt reported in a residential area People need urgent assistance.,Personal Safety,High,2,0,0,1,0
+E1149,Please send help immediately. Theft attempt reported in a residential area Situation is getting worse.,Personal Safety,High,2,0,0,1,0
+E1150,Emergency situation. Theft attempt reported in a residential area Immediate response required.,Personal Safety,High,2,0,0,1,0
+E1151,Please send help immediately. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1152,Urgent help needed. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1153,Urgent help needed. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1154,Please send help immediately. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1155,Please send help immediately. Tree fallen on a road blocking traffic Situation is getting worse.,Civic Issue,Medium,3,0,0,1,0
+E1156,Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1157,Please send help immediately. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1158,Please send help immediately. Tree fallen on a road blocking traffic Situation is getting worse.,Civic Issue,Medium,3,0,0,1,0
+E1159,Emergency situation. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1160,Urgent help needed. Tree fallen on a road blocking traffic Please send help immediately.,Civic Issue,Medium,3,0,0,1,0
+E1161,Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1162,Tree fallen on a road blocking traffic Please send help immediately.,Civic Issue,Medium,3,0,0,1,0
+E1163,Need immediate assistance. Tree fallen on a road blocking traffic Please send help immediately.,Civic Issue,Medium,3,0,0,1,0
+E1164,Urgent help needed. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1165,Please send help immediately. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1166,Urgent help needed. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1167,Please send help immediately. Tree fallen on a road blocking traffic Situation is getting worse.,Civic Issue,Medium,3,0,0,1,0
+E1168,Emergency situation. Tree fallen on a road blocking traffic Situation is getting worse.,Civic Issue,Medium,3,0,0,1,0
+E1169,Urgent help needed. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1170,Please send help immediately. Tree fallen on a road blocking traffic People need urgent assistance.,Civic Issue,Medium,3,0,0,1,0
+E1171,Need immediate assistance. Tree fallen on a road blocking traffic,Civic Issue,Medium,3,0,0,1,0
+E1172,Please send help immediately. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1173,Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1174,Urgent help needed. Tree fallen on a road blocking traffic Immediate response required.,Civic Issue,Medium,3,0,0,1,0
+E1175,Need immediate assistance. Tree fallen on a road blocking traffic Please send help immediately.,Civic Issue,Medium,3,0,0,1,0
+E1176,Electric pole leaning after a storm Immediate response required.,Civic Issue,High,2,0,0,1,0
+E1177,Urgent help needed. Electric pole leaning after a storm Please send help immediately.,Civic Issue,High,2,0,0,1,0
+E1178,Urgent help needed. Electric pole leaning after a storm People need urgent assistance.,Civic Issue,High,2,0,0,1,0
+E1179,Electric pole leaning after a storm People need urgent assistance.,Civic Issue,High,2,0,0,1,0
+E1180,Electric pole leaning after a storm Immediate response required.,Civic Issue,High,2,0,0,1,0
+E1181,Need immediate assistance. Electric pole leaning after a storm Immediate response required.,Civic Issue,High,2,0,0,1,0
+E1182,Emergency situation. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1183,Urgent help needed. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1184,Need immediate assistance. Electric pole leaning after a storm,Civic Issue,High,2,0,0,1,0
+E1185,Please send help immediately. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1186,Urgent help needed. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1187,Electric pole leaning after a storm People need urgent assistance.,Civic Issue,High,2,0,0,1,0
+E1188,Please send help immediately. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1189,Please send help immediately. Electric pole leaning after a storm Please send help immediately.,Civic Issue,High,2,0,0,1,0
+E1190,Emergency situation. Electric pole leaning after a storm,Civic Issue,High,2,0,0,1,0
+E1191,Need immediate assistance. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1192,Need immediate assistance. Electric pole leaning after a storm Please send help immediately.,Civic Issue,High,2,0,0,1,0
+E1193,Urgent help needed. Electric pole leaning after a storm Situation is getting worse.,Civic Issue,High,2,0,0,1,0
+E1194,Electric pole leaning after a storm,Civic Issue,High,2,0,0,1,0
+E1195,Emergency situation. Electric pole leaning after a storm People need urgent assistance.,Civic Issue,High,2,0,0,1,0
+E1196,Need immediate assistance. Electric pole leaning after a storm Immediate response required.,Civic Issue,High,2,0,0,1,0
+E1197,Please send help immediately. Electric pole leaning after a storm Please send help immediately.,Civic Issue,High,2,0,0,1,0
+E1198,Urgent help needed. Electric pole leaning after a storm Immediate response required.,Civic Issue,High,2,0,0,1,0
+E1199,Urgent help needed. Electric pole leaning after a storm People need urgent assistance.,Civic Issue,High,2,0,0,1,0
+E1200,Need immediate assistance. Electric pole leaning after a storm,Civic Issue,High,2,0,0,1,0
+E1201,Need immediate assistance. Streetlight not working in a residential area,Non-Emergency,Low,5,0,0,0,0
+E1202,Urgent help needed. Streetlight not working in a residential area Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1203,Emergency situation. Streetlight not working in a residential area People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1204,Please send help immediately. Streetlight not working in a residential area,Non-Emergency,Low,5,0,0,0,0
+E1205,Urgent help needed. Streetlight not working in a residential area People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1206,Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1207,Urgent help needed. Streetlight not working in a residential area Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1208,Need immediate assistance. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1209,Emergency situation. Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1210,Emergency situation. Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1211,Urgent help needed. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1212,Streetlight not working in a residential area,Non-Emergency,Low,5,0,0,0,0
+E1213,Please send help immediately. Streetlight not working in a residential area Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1214,Streetlight not working in a residential area,Non-Emergency,Low,5,0,0,0,0
+E1215,Emergency situation. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1216,Need immediate assistance. Streetlight not working in a residential area,Non-Emergency,Low,5,0,0,0,0
+E1217,Streetlight not working in a residential area Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1218,Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1219,Emergency situation. Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1220,Emergency situation. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1221,Need immediate assistance. Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1222,Need immediate assistance. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1223,Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1224,Need immediate assistance. Streetlight not working in a residential area Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1225,Streetlight not working in a residential area Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1226,Please send help immediately. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1227,Emergency situation. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1228,Please send help immediately. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1229,Water supply problem in a society People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1230,Please send help immediately. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1231,Need immediate assistance. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1232,Urgent help needed. Water supply problem in a society Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1233,Need immediate assistance. Water supply problem in a society Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1234,Emergency situation. Water supply problem in a society Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1235,Water supply problem in a society Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1236,Please send help immediately. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1237,Emergency situation. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1238,Emergency situation. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1239,Urgent help needed. Water supply problem in a society People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1240,Need immediate assistance. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1241,Water supply problem in a society Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1242,Emergency situation. Water supply problem in a society Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1243,Urgent help needed. Water supply problem in a society Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1244,Please send help immediately. Water supply problem in a society Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1245,Please send help immediately. Water supply problem in a society Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1246,Need immediate assistance. Water supply problem in a society Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1247,Urgent help needed. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1248,Emergency situation. Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1249,Urgent help needed. Water supply problem in a society People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1250,Water supply problem in a society,Non-Emergency,Low,5,0,0,0,0
+E1251,Please send help immediately. Garbage not collected for two days Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1252,Please send help immediately. Garbage not collected for two days People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1253,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1254,Need immediate assistance. Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1255,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1256,Emergency situation. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1257,Garbage not collected for two days Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1258,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1259,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1260,Need immediate assistance. Garbage not collected for two days Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1261,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1262,Need immediate assistance. Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1263,Need immediate assistance. Garbage not collected for two days Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1264,Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1265,Urgent help needed. Garbage not collected for two days People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1266,Garbage not collected for two days Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1267,Please send help immediately. Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1268,Urgent help needed. Garbage not collected for two days Situation is getting worse.,Non-Emergency,Low,5,0,0,0,0
+E1269,Urgent help needed. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1270,Emergency situation. Garbage not collected for two days People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1271,Emergency situation. Garbage not collected for two days Please send help immediately.,Non-Emergency,Low,5,0,0,0,0
+E1272,Need immediate assistance. Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1273,Garbage not collected for two days People need urgent assistance.,Non-Emergency,Low,5,0,0,0,0
+E1274,Please send help immediately. Garbage not collected for two days Immediate response required.,Non-Emergency,Low,5,0,0,0,0
+E1275,Emergency situation. Garbage not collected for two days,Non-Emergency,Low,5,0,0,0,0
+E1276,Pothole on a main road causing traffic issues Situation is getting worse.,Civic Issue,Medium,3,0,0,0,0
+E1277,Need immediate assistance. Pothole on a main road causing traffic issues Immediate response required.,Civic Issue,Medium,3,0,0,0,0
+E1278,Pothole on a main road causing traffic issues People need urgent assistance.,Civic Issue,Medium,3,0,0,0,0
+E1279,Urgent help needed. Pothole on a main road causing traffic issues Please send help immediately.,Civic Issue,Medium,3,0,0,0,0
+E1280,Urgent help needed. Pothole on a main road causing traffic issues Immediate response required.,Civic Issue,Medium,3,0,0,0,0
+E1281,Urgent help needed. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1282,Need immediate assistance. Pothole on a main road causing traffic issues Please send help immediately.,Civic Issue,Medium,3,0,0,0,0
+E1283,Emergency situation. Pothole on a main road causing traffic issues Immediate response required.,Civic Issue,Medium,3,0,0,0,0
+E1284,Please send help immediately. Pothole on a main road causing traffic issues Situation is getting worse.,Civic Issue,Medium,3,0,0,0,0
+E1285,Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1286,Need immediate assistance. Pothole on a main road causing traffic issues Situation is getting worse.,Civic Issue,Medium,3,0,0,0,0
+E1287,Emergency situation. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1288,Urgent help needed. Pothole on a main road causing traffic issues Situation is getting worse.,Civic Issue,Medium,3,0,0,0,0
+E1289,Please send help immediately. Pothole on a main road causing traffic issues Please send help immediately.,Civic Issue,Medium,3,0,0,0,0
+E1290,Urgent help needed. Pothole on a main road causing traffic issues Immediate response required.,Civic Issue,Medium,3,0,0,0,0
+E1291,Pothole on a main road causing traffic issues Immediate response required.,Civic Issue,Medium,3,0,0,0,0
+E1292,Please send help immediately. Pothole on a main road causing traffic issues People need urgent assistance.,Civic Issue,Medium,3,0,0,0,0
+E1293,Urgent help needed. Pothole on a main road causing traffic issues People need urgent assistance.,Civic Issue,Medium,3,0,0,0,0
+E1294,Need immediate assistance. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1295,Pothole on a main road causing traffic issues People need urgent assistance.,Civic Issue,Medium,3,0,0,0,0
+E1296,Urgent help needed. Pothole on a main road causing traffic issues Please send help immediately.,Civic Issue,Medium,3,0,0,0,0
+E1297,Need immediate assistance. Pothole on a main road causing traffic issues People need urgent assistance.,Civic Issue,Medium,3,0,0,0,0
+E1298,Emergency situation. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1299,Emergency situation. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1300,Emergency situation. Pothole on a main road causing traffic issues,Civic Issue,Medium,3,0,0,0,0
+E1301,Urgent help needed. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1302,Emergency situation. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1303,Need immediate assistance. Fake fire report given as a joke Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1304,Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1305,Need immediate assistance. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1306,Urgent help needed. Fake fire report given as a joke Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1307,Emergency situation. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1308,Need immediate assistance. Fake fire report given as a joke Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1309,Need immediate assistance. Fake fire report given as a joke People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1310,Urgent help needed. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1311,Urgent help needed. Fake fire report given as a joke Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1312,Urgent help needed. Fake fire report given as a joke People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1313,Need immediate assistance. Fake fire report given as a joke Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1314,Need immediate assistance. Fake fire report given as a joke Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1315,Urgent help needed. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1316,Urgent help needed. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1317,Urgent help needed. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1318,Urgent help needed. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1319,Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1320,Emergency situation. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1321,Need immediate assistance. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1322,Emergency situation. Fake fire report given as a joke Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1323,Need immediate assistance. Fake fire report given as a joke People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1324,Urgent help needed. Fake fire report given as a joke Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1325,Emergency situation. Fake fire report given as a joke,Prank/False Report,Low,5,0,0,1,0
+E1326,False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1327,False emergency call with no incident details Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1328,Please send help immediately. False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1329,Urgent help needed. False emergency call with no incident details Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1330,Urgent help needed. False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1331,False emergency call with no incident details Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1332,Please send help immediately. False emergency call with no incident details Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1333,Need immediate assistance. False emergency call with no incident details Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1334,Emergency situation. False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1335,Please send help immediately. False emergency call with no incident details Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1336,Need immediate assistance. False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1337,False emergency call with no incident details Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1338,Need immediate assistance. False emergency call with no incident details Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1339,Need immediate assistance. False emergency call with no incident details Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1340,Urgent help needed. False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1341,Please send help immediately. False emergency call with no incident details Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1342,Urgent help needed. False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1343,Please send help immediately. False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1344,Urgent help needed. False emergency call with no incident details Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1345,Please send help immediately. False emergency call with no incident details Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1346,Please send help immediately. False emergency call with no incident details Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1347,Emergency situation. False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1348,False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1349,Need immediate assistance. False emergency call with no incident details,Prank/False Report,Low,5,0,0,1,0
+E1350,False emergency call with no incident details People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1351,Need immediate assistance. Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1352,Prank call reporting a non-existent accident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1353,Urgent help needed. Prank call reporting a non-existent accident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1354,Prank call reporting a non-existent accident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1355,Please send help immediately. Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1356,Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1357,Urgent help needed. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1358,Urgent help needed. Prank call reporting a non-existent accident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1359,Please send help immediately. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1360,Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1361,Emergency situation. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1362,Urgent help needed. Prank call reporting a non-existent accident,Prank/False Report,Low,5,0,0,1,0
+E1363,Urgent help needed. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1364,Prank call reporting a non-existent accident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1365,Need immediate assistance. Prank call reporting a non-existent accident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1366,Please send help immediately. Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1367,Prank call reporting a non-existent accident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1368,Emergency situation. Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1369,Emergency situation. Prank call reporting a non-existent accident,Prank/False Report,Low,5,0,0,1,0
+E1370,Need immediate assistance. Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1371,Need immediate assistance. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1372,Urgent help needed. Prank call reporting a non-existent accident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1373,Emergency situation. Prank call reporting a non-existent accident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1374,Need immediate assistance. Prank call reporting a non-existent accident,Prank/False Report,Low,5,0,0,1,0
+E1375,Prank call reporting a non-existent accident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1376,Emergency situation. Repeated false alarm reported by the same caller People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1377,Emergency situation. Repeated false alarm reported by the same caller People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1378,Need immediate assistance. Repeated false alarm reported by the same caller Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1379,Emergency situation. Repeated false alarm reported by the same caller Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1380,Emergency situation. Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1381,Need immediate assistance. Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1382,Urgent help needed. Repeated false alarm reported by the same caller,Prank/False Report,Low,5,0,0,1,0
+E1383,Repeated false alarm reported by the same caller,Prank/False Report,Low,5,0,0,1,0
+E1384,Please send help immediately. Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1385,Repeated false alarm reported by the same caller People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1386,Emergency situation. Repeated false alarm reported by the same caller Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1387,Emergency situation. Repeated false alarm reported by the same caller Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1388,Please send help immediately. Repeated false alarm reported by the same caller People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1389,Need immediate assistance. Repeated false alarm reported by the same caller Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1390,Please send help immediately. Repeated false alarm reported by the same caller,Prank/False Report,Low,5,0,0,1,0
+E1391,Need immediate assistance. Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1392,Urgent help needed. Repeated false alarm reported by the same caller Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1393,Urgent help needed. Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1394,Need immediate assistance. Repeated false alarm reported by the same caller People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1395,Need immediate assistance. Repeated false alarm reported by the same caller,Prank/False Report,Low,5,0,0,1,0
+E1396,Repeated false alarm reported by the same caller Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1397,Please send help immediately. Repeated false alarm reported by the same caller Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1398,Emergency situation. Repeated false alarm reported by the same caller Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1399,Repeated false alarm reported by the same caller,Prank/False Report,Low,5,0,0,1,0
+E1400,Urgent help needed. Repeated false alarm reported by the same caller Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1401,Need immediate assistance. Caller gave false information about a fire incident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1402,Please send help immediately. Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1403,Caller gave false information about a fire incident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1404,Need immediate assistance. Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1405,Emergency situation. Caller gave false information about a fire incident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1406,Need immediate assistance. Caller gave false information about a fire incident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1407,Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1408,Please send help immediately. Caller gave false information about a fire incident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1409,Emergency situation. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1410,Need immediate assistance. Caller gave false information about a fire incident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1411,Caller gave false information about a fire incident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1412,Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1413,Urgent help needed. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1414,Emergency situation. Caller gave false information about a fire incident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1415,Caller gave false information about a fire incident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1416,Emergency situation. Caller gave false information about a fire incident Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1417,Emergency situation. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1418,Please send help immediately. Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1419,Please send help immediately. Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1420,Need immediate assistance. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1421,Caller gave false information about a fire incident Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1422,Urgent help needed. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1423,Caller gave false information about a fire incident Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1424,Please send help immediately. Caller gave false information about a fire incident,Prank/False Report,Low,5,0,0,1,0
+E1425,Please send help immediately. Caller gave false information about a fire incident People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1426,Urgent help needed. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1427,Emergency situation. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1428,False report of flooding to test emergency response People need urgent assistance.,Prank/False Report,Low,5,0,0,1,0
+E1429,Please send help immediately. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1430,Emergency situation. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1431,Emergency situation. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1432,Urgent help needed. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1433,Urgent help needed. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1434,Need immediate assistance. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1435,Emergency situation. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1436,Need immediate assistance. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1437,False report of flooding to test emergency response Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1438,False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1439,Urgent help needed. False report of flooding to test emergency response Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1440,Urgent help needed. False report of flooding to test emergency response Please send help immediately.,Prank/False Report,Low,5,0,0,1,0
+E1441,Please send help immediately. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1442,Please send help immediately. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1443,Please send help immediately. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1444,Urgent help needed. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1445,Need immediate assistance. False report of flooding to test emergency response Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1446,Urgent help needed. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1447,Urgent help needed. False report of flooding to test emergency response Situation is getting worse.,Prank/False Report,Low,5,0,0,1,0
+E1448,Emergency situation. False report of flooding to test emergency response,Prank/False Report,Low,5,0,0,1,0
+E1449,Emergency situation. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0
+E1450,Please send help immediately. False report of flooding to test emergency response Immediate response required.,Prank/False Report,Low,5,0,0,1,0

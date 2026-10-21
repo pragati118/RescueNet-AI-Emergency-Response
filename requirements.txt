@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas
+numpy
+joblib
+scikit-learn
+xgboost
+openai-whisper
