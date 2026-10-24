@@ -1,0 +1,15 @@
+resource_id,type,name,base,lat,lon,available,assigned_emergency,unit_status
+A1,Ambulance,Ambulance A1,Shivajinagar,18.533747157966346,73.84774175050522,1,,Idle
+A2,Ambulance,Ambulance A2,Kothrud,18.50921109099621,73.80632166871301,1,,Idle
+A3,Ambulance,Ambulance A3,Hadapsar,18.50885760776268,73.92544084031124,1,,Idle
+A4,Ambulance,Ambulance A4,Pimpri,18.62752224983412,73.79902499981561,1,,Idle
+F1,Fire Brigade,Fire Brigade F1,Swargate,18.49796203876711,73.86614213724128,1,,Idle
+F2,Fire Brigade,Fire Brigade F2,Baner,18.562230973675582,73.78636200100783,1,,Idle
+F3,Fire Brigade,Fire Brigade F3,Hadapsar,18.50973671770327,73.92948232244632,1,,Idle
+P1,Police,Police P1,Shivajinagar,18.532135369634016,73.84644351113066,0,E1001,Assigned
+P2,Police,Police P2,Viman Nagar,18.566256830488108,73.9173240900241,1,,Idle
+P3,Police,Police P3,Katraj,18.45610834935041,73.86462329828579,1,,Idle
+P4,Police,Police P4,Kothrud,18.509021285947693,73.80695233370481,1,,Idle
+R1,Rescue Team,Rescue Team R1,Pimpri,18.626672139388084,73.80484835990315,1,,Idle
+R2,Rescue Team,Rescue Team R2,Swargate,18.50336109252781,73.86359694236474,1,,Idle
+R3,Rescue Team,Rescue Team R3,Viman Nagar,18.567517215805125,73.91235246396501,1,,Idle
