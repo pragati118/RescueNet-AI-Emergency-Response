@@ -1,7 +1,10 @@
 streamlit>=1.40
 pandas
+altair
 numpy
 joblib
 scikit-learn
 xgboost
 openai-whisper
+streamlit-geolocation
+geopy

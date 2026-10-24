@@ -3,6 +3,9 @@ RescueNet - AI-Based Emergency Reporting and Resource Allocation System
 Run with:  streamlit run app.py
 """
 import os
+import re
+import time
+import html
 import json
 import math
 import random
@@ -13,6 +16,13 @@ import numpy as np
 import pandas as pd
 import joblib
 import streamlit as st
+
+# Feature 1: browser location (pip install streamlit-geolocation)
+try:
+    from streamlit_geolocation import streamlit_geolocation
+    GEO_OK = True
+except ImportError:
+    GEO_OK = False
 
 from bayesian_utils import bayesian_severity_confidence
 from astar_utils import astar_route
@@ -54,7 +64,72 @@ UNIT_PASSWORD = "unit123"   # same demo password for every resource unit
 LOG_COLS = ["emergency_id", "time", "citizen_name", "phone", "report_text",
             "emergency_type", "severity", "priority", "required_resources",
             "lat", "lon", "location_name", "recommended", "assigned_units",
-            "status", "dispatched_time", "resolved_time"]
+            "status", "dispatched_time", "resolved_time",
+            "report_count", "reports", "last_report_time"]
+
+# ---- Feature 3: incident grouping rules
+GROUP_RADIUS_KM = 1.0          # reports within 1 km can be the same incident
+GROUP_WINDOW_MIN = 15          # ...and within 15 minutes of the incident's latest report
+SIMILAR_TYPES = [{"Fire", "Gas Leakage"}, {"Accident", "Medical Emergency"}]
+NO_GROUP_TYPES = {"Prank/False Report", "Non-Emergency"}
+STATE_MAP = {"Pending": "Active", "Dispatched": "Assigned", "Accepted": "Assigned",
+             "En Route": "In Progress", "Reached": "In Progress", "Resolved": "Resolved"}
+STOPWORDS = {"the", "and", "are", "was", "has", "have", "with", "from", "near", "there", "this", "that",
+             "into", "some", "very", "please", "help", "need", "here", "its", "our", "his", "her"}
+EMERGENCY_KEYWORDS = {"fire", "smoke", "trapped", "burning", "flames", "blast", "explosion", "bleeding",
+                      "blood", "unconscious", "accident", "crash", "collision", "injured", "flood",
+                      "water", "drowning", "gas", "leak", "collapse", "collapsed", "heart", "chest",
+                      "building", "bike", "car", "truck"}
+
+# ---- Feature 1: manual place lookup + default demo location
+PLACES = {**LOCATIONS, "Pune": (18.5204, 73.8567), "Mumbai": (19.0760, 72.8777),
+          "Nashik": (19.9975, 73.7898), "Nagpur": (21.1458, 79.0882),
+          "Delhi": (28.6139, 77.2090), "Bengaluru": (12.9716, 77.5946)}
+DEFAULT_LOCATION = ("Shivajinagar (default demo location)",) + LOCATIONS["Shivajinagar"]
+
+# ---- Feature 2: helplines, sample hospitals, safety guidance
+HELPLINES = [("Ambulance", "108", "#34D399", "🚑"), ("Police", "100", "#5AA2FF", "🚓"),
+             ("Fire Brigade", "101", "#FF4D5E", "🚒"), ("National Emergency", "112", "#FFB02E", "🆘")]
+
+# Sample data for demonstration only (fictional names and numbers)
+HOSPITALS = [
+    {"name": "City General Hospital", "lat": 18.5330, "lon": 73.8440, "phone": "020-5550-0101", "facilities": "24x7 ER, ICU, Trauma"},
+    {"name": "Lifeline Trauma Centre", "lat": 18.5020, "lon": 73.8600, "phone": "020-5550-0102", "facilities": "Trauma, Ambulance, Blood bank"},
+    {"name": "Green Cross Heart Institute", "lat": 18.5120, "lon": 73.8120, "phone": "020-5550-0103", "facilities": "Cardiac ICU, Cath lab, ER"},
+    {"name": "Riverside Community Hospital", "lat": 18.5600, "lon": 73.7900, "phone": "020-5550-0104", "facilities": "ER, Maternity, Pediatrics"},
+    {"name": "Metro Burn & Emergency Care", "lat": 18.5100, "lon": 73.9200, "phone": "020-5550-0105", "facilities": "Burn unit, ER, ICU"},
+    {"name": "Northgate Multispeciality Hospital", "lat": 18.6250, "lon": 73.8050, "phone": "020-5550-0106", "facilities": "ER, ICU, Surgery"},
+    {"name": "Eastside Medical Centre", "lat": 18.5650, "lon": 73.9100, "phone": "020-5550-0107", "facilities": "ER, Orthopedics, Ambulance"},
+    {"name": "Southview Emergency Hospital", "lat": 18.4600, "lon": 73.8650, "phone": "020-5550-0108", "facilities": "24x7 ER, ICU, Dialysis"},
+]
+
+SAFETY_GUIDE = {
+    "cardiac": ("🫀 Suspected cardiac emergency", [
+        "Call an ambulance (108) immediately.",
+        "Keep the person calm and comfortable, and loosen tight clothing.",
+        "If the person is unconscious and not breathing, start CPR only if you are trained, "
+        "and follow the dispatcher's instructions."]),
+    "bleeding": ("🩸 Bleeding", [
+        "Apply firm, steady pressure on the wound with a clean cloth.",
+        "If the cloth soaks through, add another on top instead of removing it.",
+        "Call an ambulance (108) if the bleeding is heavy or does not stop."]),
+    "fire": ("🔥 Fire", [
+        "Move away from the smoke and stay low to the ground.",
+        "Do not use lifts. Use the stairs.",
+        "Call the fire brigade (101) as soon as you are in a safe place."]),
+    "accident": ("🚗 Accident", [
+        "Do not move a seriously injured person unless there is immediate danger.",
+        "Keep other people and traffic away from the injured person.",
+        "Call an ambulance (108) and the police (100)."]),
+    "drowning": ("🌊 Drowning / flood water", [
+        "Call emergency services (112 or 108) right away.",
+        "Do not enter the water unless you are trained. Throw a rope or floating object instead.",
+        "If the person is out of the water and not breathing, give CPR only if you are trained."]),
+    "general": ("🛡️ Stay safe while help is coming", [
+        "Stay calm and move to a safe place if you can.",
+        "Keep your phone nearby and answer calls from the control room.",
+        "Do not put yourself in danger to help others."]),
+}
 
 # =====================================================================
 # STYLE
@@ -176,6 +251,16 @@ button:disabled { opacity: .4; }
 .st-key-sos_btn button p { font-size: 3.4rem; font-weight: 800; color: #fff; }
 @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255,77,94,.6); } 70% { box-shadow: 0 0 0 32px rgba(255,77,94,0); } 100% { box-shadow: 0 0 0 0 rgba(255,77,94,0); } }
 @media (prefers-reduced-motion: reduce) { .st-key-sos_btn button { animation: none; } }
+
+/* facts grid, helplines */
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 6px 0 12px; }
+.fact { background: var(--panel2); border: 1px solid var(--line); border-radius: 12px; padding: 9px 14px; }
+.fact .k { color: var(--muted); font-size: .76rem; font-weight: 600; }
+.fact .v { color: #fff; font-weight: 800; }
+.helpline { text-align: center; background: var(--panel2); border: 1px solid var(--line); border-top: 5px solid; border-radius: 14px; padding: 12px 8px; }
+.helpline .nm { color: var(--muted); font-weight: 700; font-size: .9rem; }
+.helpline .num { font-size: 2.1rem; font-weight: 800; line-height: 1.15; }
+.helpline a { text-decoration: none; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -349,7 +434,11 @@ def save_resources(df):
 def load_logs():
     if not os.path.exists(LOG_FILE):
         pd.DataFrame(columns=LOG_COLS).to_csv(LOG_FILE, index=False)
-    return pd.read_csv(LOG_FILE, dtype=str).fillna("")
+    df = pd.read_csv(LOG_FILE, dtype=str).fillna("")
+    for c in LOG_COLS:                      # older CSV files get the new columns automatically
+        if c not in df.columns:
+            df[c] = "1" if c == "report_count" else ""
+    return df
 
 
 def save_logs(df):
@@ -402,8 +491,11 @@ def create_emergency(text, pred, lat, lon, loc_name, name, phone):
     logs = load_logs()
     eid = f"E{1001 + len(logs)}"
     recs = recommend(pred["required_resources"], lat, lon)
+    now = datetime.now().strftime(TIME_FMT)
     row = {
-        "emergency_id": eid, "time": datetime.now().strftime(TIME_FMT),
+        "report_count": "1", "last_report_time": now,
+        "reports": json.dumps([{"time": now, "name": name, "phone": phone, "text": text}]),
+        "emergency_id": eid, "time": now,
         "citizen_name": name, "phone": phone, "report_text": text,
         "emergency_type": pred["emergency_type"], "severity": pred["severity"],
         "priority": str(pred["priority"]),
@@ -416,12 +508,106 @@ def create_emergency(text, pred, lat, lon, loc_name, name, phone):
     return eid
 
 
+# ---------------------------------------------------------------------
+# Feature 3: duplicate SOS detection and incident grouping
+# ---------------------------------------------------------------------
+def n_reports(em):
+    try:
+        return max(1, int(em["report_count"] or 1))
+    except ValueError:
+        return 1
+
+
+def get_reports(em):
+    try:
+        reps = json.loads(em["reports"] or "[]")
+    except ValueError:
+        reps = []
+    if not reps:   # incidents created before grouping existed
+        reps = [{"time": em["time"], "name": em["citizen_name"], "phone": em["phone"], "text": em["report_text"]}]
+    return reps
+
+
+def incident_state(status):
+    return STATE_MAP.get(status, "Active")
+
+
+def _tokens(text):
+    return {w for w in re.findall(r"[a-z]+", text.lower()) if len(w) > 2 and w not in STOPWORDS}
+
+
+def descriptions_similar(a, b):
+    """Similar if they share an emergency keyword (fire, smoke, trapped...) or enough common words."""
+    ta, tb = _tokens(a), _tokens(b)
+    if not ta or not tb:
+        return False
+    return bool(ta & tb & EMERGENCY_KEYWORDS) or len(ta & tb) / len(ta | tb) >= 0.25
+
+
+def types_similar(a, b):
+    return a == b or any({a, b} <= s for s in SIMILAR_TYPES)
+
+
+def find_matching_incident(pred, text, lat, lon):
+    """Return (incident_id, distance_km) of the closest ACTIVE incident that matches, else None."""
+    now = datetime.now()
+    best = None
+    for _, row in load_logs().iterrows():
+        if row["status"] == "Resolved" or not types_similar(row["emergency_type"], pred["emergency_type"]):
+            continue
+        try:
+            dist = haversine_km(lat, lon, float(row["lat"]), float(row["lon"]))
+            last = datetime.strptime(row["last_report_time"] or row["time"], TIME_FMT)
+        except ValueError:
+            continue
+        if dist > GROUP_RADIUS_KM or abs((now - last).total_seconds()) / 60 > GROUP_WINDOW_MIN:
+            continue
+        if not any(descriptions_similar(text, r["text"]) for r in get_reports(row)):
+            continue
+        if best is None or dist < best[1]:
+            best = (row["emergency_id"], dist)
+    return best
+
+
+def add_report_to_incident(eid, text, pred, name, phone):
+    em = get_emergency(eid)
+    reps = get_reports(em)
+    now = datetime.now().strftime(TIME_FMT)
+    reps.append({"time": now, "name": name, "phone": phone, "text": text})
+    fields = {"reports": json.dumps(reps), "report_count": len(reps), "last_report_time": now}
+    if int(pred["priority"]) < int(em["priority"] or 5):        # new report is more urgent -> escalate
+        fields.update(severity=pred["severity"], priority=pred["priority"])
+    required = [r.strip() for r in em["required_resources"].split(",") if r.strip()]
+    merged = required + [r for r in pred["required_resources"] if r not in required]
+    if merged != required:
+        fields["required_resources"] = ", ".join(merged)
+        if not em["assigned_units"]:
+            fields["recommended"] = json.dumps(recommend(merged, float(em["lat"]), float(em["lon"])))
+    update_log(eid, **fields)
+
+
+def submit_sos(text, pred, lat, lon, loc_name, name, phone):
+    """Add to an existing incident if it matches, otherwise create a new one. Returns (incident_id, merged)."""
+    if pred["emergency_type"] not in NO_GROUP_TYPES:
+        match = find_matching_incident(pred, text, lat, lon)
+        if match:
+            add_report_to_incident(match[0], text, pred, name, phone)
+            return match[0], True
+    return create_emergency(text, pred, lat, lon, loc_name, name, phone), False
+
+
 def dispatch(eid, types):
     """Assign the nearest currently-available unit of each type."""
     em = get_emergency(eid)
-    recs = recommend(types, float(em["lat"]), float(em["lon"]))
     res = load_resources()
     assigned = [u for u in em["assigned_units"].split(",") if u]
+    # one dispatch per resource type per incident: skip types that already have a unit assigned
+    fleet = res.set_index("resource_id")["type"]
+    done_types = {fleet[u] for u in assigned if u in fleet.index}
+    types = [x for x in types if x not in done_types]
+    if not types:
+        return []
+    recs = recommend(types, float(em["lat"]), float(em["lon"]))
     for r in recs:
         if r["unit_id"] and r["unit_id"] not in assigned:
             idx = res["resource_id"] == r["unit_id"]
@@ -521,7 +707,7 @@ def seed_demo_data(n=25):
 # =====================================================================
 # SESSION STATE
 # =====================================================================
-for key, default in {"auth": None, "sos_active": False, "last_eid": None}.items():
+for key, default in {"auth": None, "sos_active": False, "last_eid": None, "last_merged": False}.items():
     if key not in st.session_state:
         st.session_state[key] = default
 
@@ -607,12 +793,234 @@ QUICK_REPORTS = {
 }
 
 
+def incident_facts(em):
+    assigned = ", ".join(u for u in em["assigned_units"].split(",") if u) or "Not assigned yet"
+    items = [("Incident ID", em["emergency_id"]), ("Emergency type", em["emergency_type"]),
+             ("Severity", em["severity"]), ("Priority", f"Priority {em['priority']}"),
+             ("Location", f"{em['location_name']} ({float(em['lat']):.4f}, {float(em['lon']):.4f})"),
+             ("Total SOS reports", n_reports(em)), ("First report", em["time"]),
+             ("Incident status", incident_state(em["status"])), ("Assigned unit", assigned),
+             ("Required resources", em["required_resources"] or "None")]
+    cells = "".join(f"<div class='fact'><div class='k'>{k}</div><div class='v'>{html.escape(str(v))}</div></div>"
+                    for k, v in items)
+    return f"<div class='facts'>{cells}</div>"
+
+
+def lookup_place(query):
+    q = query.strip().lower()
+    if not q:
+        return None
+    for name, coords in PLACES.items():
+        if q == name.lower() or q in name.lower() or name.lower() in q:
+            return name, coords
+    try:                                   # optional online lookup if geopy is installed
+        from geopy.geocoders import Nominatim
+        g = Nominatim(user_agent="rescuenet-demo", timeout=5).geocode(query)
+        if g:
+            return query.title(), (g.latitude, g.longitude)
+    except Exception:
+        pass
+    return None
+
+
+def reverse_geocode(lat, lon):
+    """Area, city and state for a coordinate using OpenStreetMap Nominatim. Returns None on ANY failure."""
+    try:
+        from geopy.geocoders import Nominatim
+        place = Nominatim(user_agent="RescueNet", timeout=6).reverse(
+            (lat, lon), language="en", addressdetails=True, zoom=16)
+        if not place:
+            return None
+        addr = place.raw.get("address") or {}
+
+        def first(*keys):
+            return next((addr[k] for k in keys if addr.get(k)), "")
+
+        parts = []
+        for part in (first("suburb", "neighbourhood", "quarter", "city_district", "residential", "hamlet", "village"),
+                     first("city", "town", "municipality", "county", "state_district"),
+                     first("state")):
+            if part and part not in parts:
+                parts.append(part)
+        return ", ".join(parts) or ", ".join(s.strip() for s in place.address.split(",")[:3]) or None
+    except Exception:          # no internet, geopy missing, rate limit... the app must keep working
+        return None
+
+
+def place_label(lat, lon):
+    """Cached reverse geocode, so Streamlit reruns do not call the service again and again."""
+    cache = st.session_state.setdefault("place_cache", {})
+    key = (round(lat, 4), round(lon, 4))
+    name, tried_at = cache.get(key, (None, 0))
+    if name is None and time.time() - tried_at > 60:      # retry a failed lookup after 1 minute
+        with st.spinner("Finding your area name..."):
+            name = reverse_geocode(lat, lon)
+        cache[key] = (name, time.time())
+    return name
+
+
+def location_picker():
+    """Feature 1. Returns (lat, lon, location_name). GPS first, manual fallback, demo default last."""
+    ss = st.session_state
+    mode = st.radio("Location method", ["📍 Current location (GPS)", "🏙️ City / area name",
+                                        "✍️ Latitude / longitude"], horizontal=True, key="loc_mode")
+    default_name, default_lat, default_lon = DEFAULT_LOCATION
+
+    if mode.startswith("📍"):
+        if st.button("📍 Use My Current Location", key="btn_geo"):
+            ss["geo_requested"] = True
+        if ss.get("geo_requested"):
+            if not GEO_OK:
+                st.warning("The 'streamlit-geolocation' package is not installed (pip install streamlit-geolocation). "
+                           "Please use a manual option above.")
+            else:
+                st.caption("Click the location icon below and choose **Allow** when your browser asks for permission.")
+                loc = streamlit_geolocation()
+                if loc and loc.get("latitude") is not None and loc.get("longitude") is not None:
+                    ss["geo_lat"], ss["geo_lon"] = float(loc["latitude"]), float(loc["longitude"])
+        if ss.get("geo_lat") is not None:
+            lat, lon = ss["geo_lat"], ss["geo_lon"]
+            area = place_label(lat, lon)
+            if area:
+                st.success(f"**Current location detected: {area}**  \nLatitude: {lat:.5f}, Longitude: {lon:.5f}")
+            else:   # lookup failed or offline: coordinates only
+                st.success(f"Current location detected: Latitude {lat:.5f}, Longitude {lon:.5f}")
+            return lat, lon, area or "Current location (GPS)"
+        if ss.get("geo_requested"):
+            st.warning("Location is not available yet. If permission was denied or blocked, choose "
+                       "“City / area name” or “Latitude / longitude” above.")
+        else:
+            st.info("Press the button to detect your location, or choose a manual option. "
+                    "A demo location is used only if nothing is provided.")
+
+    elif mode.startswith("🏙️"):
+        query = st.text_input("City or area name", placeholder="Example: Kothrud, Pune")
+        if query.strip():
+            found = lookup_place(query)
+            if found:
+                name, (lat, lon) = found
+                st.success(f"Using {name}: Latitude {lat:.5f}, Longitude {lon:.5f}")
+                return lat, lon, name
+            st.warning("Could not find that place. Try another name or enter latitude / longitude.")
+
+    else:
+        c1, c2 = st.columns(2)
+        lat = c1.number_input("Latitude", value=None, min_value=-90.0, max_value=90.0, format="%.5f", placeholder="18.52040")
+        lon = c2.number_input("Longitude", value=None, min_value=-180.0, max_value=180.0, format="%.5f", placeholder="73.85670")
+        if lat is not None and lon is not None:
+            area = place_label(lat, lon)
+            st.success((f"**Using manual location: {area}**  \n" if area else "Using manual location  \n")
+                       + f"Latitude: {lat:.5f}, Longitude: {lon:.5f}")
+            return lat, lon, area or "Manual location"
+
+    st.caption(f"Nothing provided yet, so the demo location will be used: {default_name}.")
+    return default_lat, default_lon, default_name
+
+
+def safety_guidance_keys(etype, text):
+    t = text.lower()
+    keys = []
+    if any(k in t for k in ["heart", "cardiac", "chest pain", "not breathing"]) or \
+            (etype == "Medical Emergency" and any(k in t for k in ["unconscious", "collapsed"])):
+        keys.append("cardiac")
+    if "bleed" in t or "blood" in t:
+        keys.append("bleeding")
+    if etype == "Fire" or "fire" in t or "smoke" in t:
+        keys.append("fire")
+    if etype == "Accident" or "accident" in t or "crash" in t:
+        keys.append("accident")
+    if "drown" in t or etype == "Flood":
+        keys.append("drowning")
+    return keys or ["general"]
+
+
+def nearest_hospitals(lat, lon, n=5):
+    rows = []
+    for h in HOSPITALS:
+        d = haversine_km(lat, lon, h["lat"], h["lon"]) * ROAD_FACTOR
+        rows.append({**h, "distance_km": round(d, 1), "eta_min": max(1, round(d / AVG_SPEED_KMH * 60))})
+    rows.sort(key=lambda r: r["distance_km"])
+    return rows[:n]
+
+
+def hospital_map(lat, lon, rows, height=380, victim_label="📍 Emergency location"):
+    try:
+        import pydeck as pdk
+    except ImportError:
+        pts = [{"lat": lat, "lon": lon, "color": "#FFE600", "size": 220}] + \
+              [{"lat": r["lat"], "lon": r["lon"], "color": "#FFFFFF", "size": 120} for r in rows]
+        st.map(pd.DataFrame(pts), latitude="lat", longitude="lon", color="color", size="size", height=height)
+        return
+    hosp = pd.DataFrame([{"lat": r["lat"], "lon": r["lon"], "color": [52, 211, 153, 230],
+                          "label": f"🏥 {r['name']}  |  📞 {r['phone']}  |  {r['distance_km']} km"} for r in rows])
+    victim = pd.DataFrame([{"lat": lat, "lon": lon, "color": [255, 230, 0, 255], "label": victim_label}])
+    layers = [pdk.Layer("ScatterplotLayer", data=d, get_position="[lon, lat]", get_fill_color="color",
+                        get_radius=r, radius_min_pixels=m, pickable=True)
+              for d, r, m in [(hosp, 200, 8), (victim, 300, 11)]]
+    far = max(r["distance_km"] for r in rows)
+    zoom = 12 if far < 6 else 11 if far < 15 else 9 if far < 60 else 6
+    st.pydeck_chart(pdk.Deck(layers=layers, initial_view_state=pdk.ViewState(latitude=lat, longitude=lon, zoom=zoom),
+                             tooltip={"text": "{label}", "style": {"backgroundColor": "#131C2E", "color": "#E8EDF5"}}),
+                    height=height)
+
+
+def nearby_help(em):
+    """Feature 2: helplines, nearest hospitals, immediate safety guidance."""
+    lat, lon = float(em["lat"]), float(em["lon"])
+    st.markdown("## Nearby Emergency Help")
+
+    # 1. helplines
+    with st.container(border=True):
+        st.markdown("**📞 Emergency helplines**")
+        for col, (name, num, color, icon) in zip(st.columns(4), HELPLINES):
+            col.markdown(f"<div class='helpline' style='border-top-color:{color}'><div class='nm'>{icon} {name}</div>"
+                         f"<div class='num'><a href='tel:{num}' style='color:{color}'>{num}</a></div></div>",
+                         unsafe_allow_html=True)
+
+    # 2. nearest hospitals
+    near = nearest_hospitals(lat, lon)
+    with st.container(border=True):
+        st.markdown("**🏥 Nearest hospitals**")
+        left, right = st.columns([2, 3], gap="large")
+        with left:
+            st.markdown(f"**📍 {em['location_name']}**")
+            st.caption(f"Latitude: {lat:.5f}, Longitude: {lon:.5f}. Distances are measured from this location. "
+                       "Hospital data is a small sample for demonstration.")
+            kpi("Nearest hospital", near[0]["name"], "#34D399", "🏥")
+            kpi("Distance", f"{near[0]['distance_km']} km", "#5AA2FF", "📏")
+            kpi("Estimated travel time", f"{near[0]['eta_min']} min", "#FFB02E", "⏱️")
+            if near[0]["distance_km"] > 50:
+                st.info("The sample hospital list covers only the demo area, so these hospitals are far away. "
+                        "In a real deployment this list would cover your city.")
+        with right:
+            hospital_map(lat, lon, near, height=420)
+            st.caption("🟡 Emergency location   🟢 Hospital (hover for name and phone)")
+        table = pd.DataFrame([{"Hospital": r["name"], "Phone": r["phone"], "Emergency facilities": r["facilities"],
+                               "Distance (km)": r["distance_km"], "Travel time (min)": r["eta_min"]} for r in near])
+        st.dataframe(table, use_container_width=True, hide_index=True)
+
+    # 3. immediate safety guidance
+    with st.container(border=True):
+        st.markdown("**🩺 Immediate safety guidance**")
+        for key in safety_guidance_keys(em["emergency_type"], em["report_text"]):
+            title, steps = SAFETY_GUIDE[key]
+            st.markdown(f"**{title}**")
+            st.markdown("\n".join(f"- {s}" for s in steps))
+        st.warning("This guidance is only for immediate support. Professional medical help is essential.")
+
+
 def show_result(eid):
     em = get_emergency(eid)
     if em is None:
         return
     st.markdown(f"### Your request {eid}")
     severity_banner(em["severity"], em["emergency_type"], em["priority"])
+
+    if st.session_state.get("last_merged") and eid == st.session_state.get("last_eid"):
+        st.info("Your report has been added to an existing emergency incident. Help is already being coordinated.")
+    with st.container(border=True):
+        st.markdown("**Incident details**")
+        st.markdown(incident_facts(em), unsafe_allow_html=True)
 
     with st.container(border=True):
         st.markdown("**Help needed**")
@@ -674,6 +1082,8 @@ def show_result(eid):
         st.map(build_map(em), latitude="lat", longitude="lon", color="color", size="size", height=300)
         map_legend()
 
+    nearby_help(em)
+
 
 def page_citizen():
     hero("🆘 Report an emergency", "Stay calm. Tell us what is happening and where you are.")
@@ -714,17 +1124,13 @@ def page_citizen():
 
     with st.container(border=True):
         step_title(2, "Where are you?")
-        loc_mode = st.radio("Location method", ["📍 Auto-detect (simulated GPS)", "✍️ Enter latitude / longitude"],
-                            horizontal=True)
-        if loc_mode.startswith("📍"):
-            loc_name = st.selectbox("Detected area", list(LOCATIONS))
-            lat, lon = LOCATIONS[loc_name]
-            st.caption(f"Coordinates: {lat:.4f}, {lon:.4f}")
-        else:
-            c1, c2 = st.columns(2)
-            lat = c1.number_input("Latitude", value=18.5204, format="%.5f")
-            lon = c2.number_input("Longitude", value=73.8567, format="%.5f")
-            loc_name = "Manual location"
+        loc_left, loc_right = st.columns([3, 2], gap="large")
+        with loc_left:
+            lat, lon, loc_name = location_picker()
+        with loc_right:
+            st.markdown("**Your location and nearby hospitals**")
+            hospital_map(lat, lon, nearest_hospitals(lat, lon), height=300, victim_label="📍 Your location")
+            st.caption("🟡 Your location   🟢 Nearby hospital")
 
     with st.container(border=True):
         step_title(3, "Send for help")
@@ -739,9 +1145,15 @@ def page_citizen():
                         st.error(f"Could not load the AI models ({e}). Check the 'models' folder.")
                         return
                     auth = st.session_state.auth
-                    st.session_state.last_eid = create_emergency(
+                    eid, merged = submit_sos(
                         report.strip(), pred, lat, lon, loc_name, auth.get("name", ""), auth.get("phone", ""))
-                st.success("Help requested. The control room has been notified.")
+                    st.session_state.last_eid = eid
+                    st.session_state.last_merged = merged
+                if merged:
+                    st.info("Your report has been added to an existing emergency incident. "
+                            "Help is already being coordinated.")
+                else:
+                    st.success("Help requested. The control room has been notified.")
 
     if st.session_state.last_eid:
         st.divider()
@@ -750,6 +1162,7 @@ def page_citizen():
     if st.button("Start a new report", key="btn_new"):
         st.session_state.sos_active = False
         st.session_state.last_eid = None
+        st.session_state.last_merged = False
         st.session_state.pop("report_text", None)
         st.rerun()
 
@@ -766,18 +1179,23 @@ def page_control():
         return
     logs["priority_n"] = pd.to_numeric(logs["priority"], errors="coerce").fillna(5)
 
-    k1, k2, k3, k4 = st.columns(4)
-    with k1:
-        kpi("Total emergencies", len(logs), "#5AA2FF", "📋")
-    with k2:
-        kpi("Critical cases", int((logs["severity"] == "Critical").sum()), "#FF4D5E", "🚨")
-    with k3:
-        kpi("Pending", int((logs["status"] == "Pending").sum()), "#FFB02E", "⏳")
-    with k4:
-        kpi("Active", int(logs["status"].isin(["Dispatched", "Accepted", "En Route", "Reached"]).sum()), "#5AA2FF", "🚑")
+    logs["state"] = logs["status"].map(incident_state)
+    logs["reports_n"] = logs.apply(n_reports, axis=1)
+
+    k = st.columns(5)
+    with k[0]:
+        kpi("Incidents", len(logs), "#5AA2FF", "📋")
+    with k[1]:
+        kpi("Total SOS reports", int(logs["reports_n"].sum()), "#A78BFA", "📨")
+    with k[2]:
+        kpi("Critical incidents", int((logs["severity"] == "Critical").sum()), "#FF4D5E", "🚨")
+    with k[3]:
+        kpi("Active (not dispatched)", int((logs["state"] == "Active").sum()), "#FFB02E", "⏳")
+    with k[4]:
+        kpi("In response", int(logs["state"].isin(["Assigned", "In Progress"]).sum()), "#34D399", "🚑")
 
     with st.container(border=True):
-        st.markdown("**Emergency queue** (highest priority first)")
+        st.markdown("**Incident queue** (duplicate SOS reports are grouped, highest priority first)")
         f1, f2, f3 = st.columns(3)
         ftype = f1.selectbox("Emergency type", ["All"] + sorted(logs["emergency_type"].unique()))
         fsev = f2.selectbox("Severity", ["All", "Critical", "High", "Medium", "Low"])
@@ -790,33 +1208,46 @@ def page_control():
         if fstat != "All":
             view = view[view["status"] == fstat]
         view = view.sort_values(["priority_n", "time"])
-        table = view[["emergency_id", "time", "emergency_type", "severity", "priority",
-                      "location_name", "required_resources", "assigned_units", "status"]]
-        st.dataframe(style_table(table), use_container_width=True, hide_index=True)
+        table = view[["emergency_id", "time", "emergency_type", "severity", "priority", "reports_n", "location_name",
+                      "required_resources", "assigned_units", "state", "status"]]
+        st.dataframe(style_table(table), use_container_width=True, hide_index=True,
+                     column_config={"emergency_id": "Incident ID", "time": "First report", "reports_n": "SOS reports",
+                                    "state": "Incident state", "status": "Detailed status",
+                                    "emergency_type": "Type", "location_name": "Location",
+                                    "required_resources": "Required resources", "assigned_units": "Assigned units"})
 
     if view.empty:
         st.warning("No emergencies match these filters.")
         return
 
     with st.container(border=True):
-        eid = st.selectbox("Open emergency", view["emergency_id"])
+        eid = st.selectbox("Open incident", view["emergency_id"])
         em = get_emergency(eid)
         severity_banner(em["severity"], em["emergency_type"], em["priority"])
         left, right = st.columns([3, 2], gap="large")
 
         with left:
-            st.markdown(f"**Report:** “{em['report_text']}”")
-            st.caption(f"Reporter: {em['citizen_name']} {em['phone']} • Location: {em['location_name']} "
-                       f"({float(em['lat']):.4f}, {float(em['lon']):.4f}) • Reported {em['time']}")
+            st.markdown(incident_facts(em), unsafe_allow_html=True)
+            with st.expander(f"All SOS reports for this incident ({n_reports(em)})", expanded=n_reports(em) > 1):
+                for i, r in enumerate(get_reports(em), 1):
+                    st.markdown(f"**{i}.** {r['time']} — {r.get('name') or 'Anonymous'} {r.get('phone', '')}  \n"
+                                f"“{r['text']}”")
             timeline(em["status"])
+
+            # resources are assigned only once per incident: types already assigned are not offered again
             required = [r.strip() for r in em["required_resources"].split(",") if r.strip()]
-            chosen = st.multiselect("Resources to dispatch (change the AI suggestion if needed)",
-                                    RESOURCE_TYPES, default=required, key=f"ms_{eid}")
+            fleet = load_resources().set_index("resource_id")["type"]
+            assigned_ids = [u for u in em["assigned_units"].split(",") if u]
+            assigned_types = {fleet[u] for u in assigned_ids if u in fleet.index}
+            options = [r for r in RESOURCE_TYPES if r not in assigned_types]
+            if assigned_types:
+                st.success("Already assigned to this incident: " + ", ".join(sorted(assigned_types))
+                           + ". They will not be dispatched again.")
+            chosen = st.multiselect("Resources to dispatch (change the AI suggestion if needed)", options,
+                                    default=[r for r in required if r in options], key=f"ms_{eid}_{len(assigned_ids)}")
             st.markdown("**Nearest available units right now**")
             for r in recommend(chosen, float(em["lat"]), float(em["lon"])):
                 unit_card(r)
-            if em["assigned_units"]:
-                st.caption(f"Already assigned: {em['assigned_units']}")
 
             b1, b2 = st.columns(2)
             if b1.button("✅ Dispatch resources", type="primary", key=f"disp_{eid}", disabled=not chosen,
